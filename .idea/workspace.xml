@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6566e381-322b-4d8a-baab-6e13b90b37de" name="Changes" comment="" />
+    <list default="true" id="6566e381-322b-4d8a-baab-6e13b90b37de" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sabakachabaka/miscellaneousmod/MiscellaneousMod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sabakachabaka/miscellaneousmod/MiscellaneousMod.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +30,17 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="miscellaneousmod" type="f1a62948:ProjectNode" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="miscellaneousmod" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="miscellaneousmod" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
             </expand>
             <select />
           </tree_state>
@@ -38,6 +51,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "sabaka-chabaka"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/sabaka-chabaka/MiscellaneousMod.git",
+    "accountId": "40b69b86-10aa-41c7-b1c6-b2d523bb6332"
+  }
+}]]></component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -56,6 +81,7 @@
     "Gradle.MiscellaneousMod [:prepareRunClientCompile].executor": "Run",
     "Gradle.MiscellaneousMod [createMcpToSrg].executor": "Run",
     "Gradle.MiscellaneousMod [genIntellijRuns].executor": "Run",
+    "Gradle.MiscellaneousMod [jar].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -63,7 +89,7 @@
     "settings.editor.selected.configurable": "UnrealLinkOptionsId"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.runClient">
+  <component name="RunManager" selected="Gradle.MiscellaneousMod [jar]">
     <configuration name="MiscellaneousMod [genIntellijRuns]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -76,6 +102,28 @@
         <option name="taskNames">
           <list>
             <option value="genIntellijRuns" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="MiscellaneousMod [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="jar" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -99,6 +147,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MiscellaneousMod [jar]" />
         <item itemvalue="Gradle.MiscellaneousMod [genIntellijRuns]" />
       </list>
     </recent_temporary>

@@ -5,9 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6566e381-322b-4d8a-baab-6e13b90b37de" name="Changes" comment="Commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sabakachabaka/miscellaneousmod/blocks/ModBlocks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sabakachabaka/miscellaneousmod/items/ModItems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/miscellaneousmod/blockstates/brick_concrete.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/miscellaneousmod/lang/ru_ru.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/miscellaneousmod/models/block/brick_concrete.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/miscellaneousmod/models/item/brick_concrete.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/miscellaneousmod/textures/blocks/brick_concrete.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/miscellaneousmod.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/miscellaneousmod.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/miscellaneousmod.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/miscellaneousmod.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/config/forge-client.toml" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/forge-client.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sabakachabaka/miscellaneousmod/MiscellaneousMod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sabakachabaka/miscellaneousmod/MiscellaneousMod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sabakachabaka/miscellaneousmod/blocks/ModBlocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sabakachabaka/miscellaneousmod/blocks/ModBlocks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sabakachabaka/miscellaneousmod/items/ModItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sabakachabaka/miscellaneousmod/items/ModItems.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,27 +73,27 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "sabaka-chabaka"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;sabaka-chabaka&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/sabaka-chabaka/MiscellaneousMod.git",
-    "accountId": "40b69b86-10aa-41c7-b1c6-b2d523bb6332"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/sabaka-chabaka/MiscellaneousMod.git&quot;,
+    &quot;accountId&quot;: &quot;40b69b86-10aa-41c7-b1c6-b2d523bb6332&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/main/java/com/sabakachabaka/miscellaneousmod/MiscellaneousMod.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="30XTI2r9eMMTV3hOrRXUbF3OUIX" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -96,12 +109,18 @@
     "Gradle.MiscellaneousMod [jar].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "settings.editor.selected.configurable": "UnrealLinkOptionsId"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.MiscellaneousMod [jar]">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\MinecraftModding\MiscellaneousMod\src\main\resources\assets\miscellaneousmod\textures\block" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.runClient">
     <configuration name="MiscellaneousMod [genIntellijRuns]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -180,7 +199,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753774455185</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Commit">
+      <option name="closed" value="true" />
+      <created>1753778026659</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1753778026659</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

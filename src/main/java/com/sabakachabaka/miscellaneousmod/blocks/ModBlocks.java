@@ -16,6 +16,8 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, MiscellaneousMod.MOD_ID);
 
     public static final RegistryObject<Block> BRICK_CONCRETE = BLOCKS.register("brick_concrete", () -> new Block(AbstractBlock.Properties.of(Material.STONE, MaterialColor.COLOR_GRAY).strength(200, 400).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> BRICK_CONCRETE_MOSSY = BLOCKS.register("brick_concrete_mossy", () -> new Block(AbstractBlock.Properties.of(Material.STONE, MaterialColor.COLOR_GRAY).strength(195, 390).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> BRICK_CONCRETE_CRACKED = BLOCKS.register("brick_concrete_cracked", () -> new Block(AbstractBlock.Properties.of(Material.STONE, MaterialColor.COLOR_GRAY).strength(180, 360).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE)));
 
     public static void register(IEventBus eventBus){
         BLOCKS.register(eventBus);

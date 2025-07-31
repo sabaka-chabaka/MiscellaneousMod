@@ -13,8 +13,9 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MiscellaneousMod.MOD_ID);
 
     public static final RegistryObject<BlockItem> BRICK_CONCRETE = ITEMS.register("brick_concrete", () -> new BlockItem(ModBlocks.BRICK_CONCRETE.get(), new Item.Properties().fireResistant().tab(MiscellaneousMod.BUILDING_GROUP)));
+    public static final RegistryObject<BlockItem> BRICK_CONCRETE_MOSSY = ITEMS.register("brick_concrete_mossy", () -> new BlockItem(ModBlocks.BRICK_CONCRETE_MOSSY.get(), new Item.Properties().fireResistant().tab(MiscellaneousMod.BUILDING_GROUP)));
+    public static final RegistryObject<BlockItem> BRICK_CONCRETE_CRACKED = ITEMS.register("brick_concrete_cracked", () -> new BlockItem(ModBlocks.BRICK_CONCRETE_CRACKED.get(), new Item.Properties().fireResistant().tab(MiscellaneousMod.BUILDING_GROUP)));
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
     }
-
 }

@@ -1,4 +1,6 @@
 ﻿{
   "itemGroup.buildingtab": "MiscMod | Строительные блоки",
-  "block.miscellaneousmod.brick_concrete": "Бетонные кирпичи"
+  "block.miscellaneousmod.brick_concrete": "Бетонные кирпичи",
+  "block.miscellaneousmod.brick_concrete_mossy": "Замшелые бетонные кирпичи",
+  "block.miscellaneousmod.brick_concrete_cracked": "Повреждённые бетонные кирпичи"
 }

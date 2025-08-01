@@ -4,22 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6566e381-322b-4d8a-baab-6e13b90b37de" name="Changes" comment="Added new block">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/miscellaneousmod/blockstates/brick_concrete_cracked.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/miscellaneousmod/blockstates/brick_concrete_mossy.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/miscellaneousmod/models/block/brick_concrete_cracked.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/miscellaneousmod/models/block/brick_concrete_mossy.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/miscellaneousmod/models/item/brick_concrete_cracked.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/miscellaneousmod/models/item/brick_concrete_mossy.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/miscellaneousmod/textures/blocks/brick_concrete_cracked.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/miscellaneousmod/textures/blocks/brick_concrete_mossy.png" afterDir="false" />
+    <list default="true" id="6566e381-322b-4d8a-baab-6e13b90b37de" name="Changes" comment="Added new blocks">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/miscellaneousmod/blockstates/asphalt.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/miscellaneousmod/blockstates/brick_fire.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/miscellaneousmod/blockstates/brick_light.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/miscellaneousmod/blockstates/concrete.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/miscellaneousmod/blockstates/concrete_asbestos.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/miscellaneousmod/blockstates/concrete_black.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/miscellaneousmod/blockstates/concrete_hazard.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/miscellaneousmod/blockstates/concrete_tile.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/miscellaneousmod/blockstates/concrete_white.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/miscellaneousmod/blockstates/deco_block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/miscellaneousmod/blockstates/small_tiles.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/miscellaneousmod/models/block/asphalt.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/miscellaneousmod/models/block/brick_fire.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/miscellaneousmod/models/block/brick_light.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/miscellaneousmod/models/block/concrete.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/miscellaneousmod/models/block/concrete_asbestos.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/miscellaneousmod/models/block/concrete_black.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/miscellaneousmod/models/block/concrete_hazard.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/miscellaneousmod/models/block/concrete_tile.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/miscellaneousmod/models/block/concrete_white.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/miscellaneousmod/models/block/deco_block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/miscellaneousmod/models/block/small_tiles.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/miscellaneousmod/models/item/asphalt.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/miscellaneousmod/models/item/brick_fire.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/miscellaneousmod/models/item/brick_light.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/miscellaneousmod/models/item/concrete.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/miscellaneousmod/models/item/concrete_asbestos.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/miscellaneousmod/models/item/concrete_black.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/miscellaneousmod/models/item/concrete_hazard.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/miscellaneousmod/models/item/concrete_tile.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/miscellaneousmod/models/item/concrete_white.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/miscellaneousmod/models/item/deco_block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/miscellaneousmod/models/item/small_tiles.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sabakachabaka/miscellaneousmod/blocks/ModBlocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sabakachabaka/miscellaneousmod/blocks/ModBlocks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sabakachabaka/miscellaneousmod/items/ModItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sabakachabaka/miscellaneousmod/items/ModItems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/mods.toml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/mods.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/assets/miscellaneousmod/lang/ru_ru.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/miscellaneousmod/lang/ru_ru.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,23 +120,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.D:/MinecraftModding/MiscellaneousMod [wrapper genIntellijRuns].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.MiscellaneousMod [:net.minecraftforge.userdev.LaunchTesting.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.MiscellaneousMod [:prepareRunClientCompile].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.MiscellaneousMod [createMcpToSrg].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.MiscellaneousMod [genIntellijRuns].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.MiscellaneousMod [jar].executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/MinecraftModding/MiscellaneousMod/src/main/resources/assets/miscellaneousmod/blockstates&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;UnrealLinkOptionsId&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.D:/MinecraftModding/MiscellaneousMod [wrapper genIntellijRuns].executor": "Run",
+    "Gradle.MiscellaneousMod [:net.minecraftforge.userdev.LaunchTesting.main()].executor": "Run",
+    "Gradle.MiscellaneousMod [:prepareRunClientCompile].executor": "Run",
+    "Gradle.MiscellaneousMod [createMcpToSrg].executor": "Run",
+    "Gradle.MiscellaneousMod [genIntellijRuns].executor": "Run",
+    "Gradle.MiscellaneousMod [jar].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/MinecraftModding/MiscellaneousMod/src/main/resources/assets/miscellaneousmod/blockstates",
+    "settings.editor.selected.configurable": "UnrealLinkOptionsId"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\MinecraftModding\MiscellaneousMod\src\main\resources\assets\miscellaneousmod\blockstates" />
@@ -222,12 +243,21 @@
       <option name="project" value="LOCAL" />
       <updated>1753904848271</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added new blocks">
+      <option name="closed" value="true" />
+      <created>1753973306339</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1753973306339</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit" />
     <MESSAGE value="Added new block" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added new block" />
+    <MESSAGE value="Added new blocks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added new blocks" />
   </component>
 </project>

@@ -1,6 +1,17 @@
 ﻿{
   "itemGroup.buildingtab": "MiscMod | Строительные блоки",
+  "block.miscellaneousmod.asphalt": "Асфальт",
   "block.miscellaneousmod.brick_concrete": "Бетонные кирпичи",
   "block.miscellaneousmod.brick_concrete_mossy": "Замшелые бетонные кирпичи",
-  "block.miscellaneousmod.brick_concrete_cracked": "Повреждённые бетонные кирпичи"
+  "block.miscellaneousmod.brick_concrete_cracked": "Повреждённые бетонные кирпичи",
+  "block.miscellaneousmod.brick_fire": "Красные кирпичи",
+  "block.miscellaneousmod.brick_light": "Лёгкие кирпичи",
+  "block.miscellaneousmod.concrete": "Бетон",
+  "block.miscellaneousmod.concrete_asbestos": "Асбестобетон",
+  "block.miscellaneousmod.concrete_black": "Чёрный бетон",
+  "block.miscellaneousmod.concrete_hazard": "Бетон с отметкой опасности",
+  "block.miscellaneousmod.concrete_tile": "Бетонная плита",
+  "block.miscellaneousmod.concrete_white": "Белый бетон",
+  "block.miscellaneousmod.deco_block": "Декоративный блок",
+  "block.miscellaneousmod.small_tiles": "Плитка"
 }

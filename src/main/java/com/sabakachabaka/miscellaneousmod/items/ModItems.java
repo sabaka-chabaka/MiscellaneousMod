@@ -13,6 +13,7 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MiscellaneousMod.MOD_ID);
 
     public static final RegistryObject<BlockItem> ASPHALT = ITEMS.register("asphalt", () -> new BlockItem(ModBlocks.ASPHALT.get(), new Item.Properties().fireResistant().tab(MiscellaneousMod.BUILDING_GROUP)));
+    public static final RegistryObject<BlockItem> BLUE_STEEL = ITEMS.register("blue_steel", () -> new BlockItem(ModBlocks.BLUE_STEEL.get(), new Item.Properties().fireResistant().tab(MiscellaneousMod.BUILDING_GROUP)));
     public static final RegistryObject<BlockItem> BRICK_CONCRETE = ITEMS.register("brick_concrete", () -> new BlockItem(ModBlocks.BRICK_CONCRETE.get(), new Item.Properties().fireResistant().tab(MiscellaneousMod.BUILDING_GROUP)));
     public static final RegistryObject<BlockItem> BRICK_CONCRETE_MOSSY = ITEMS.register("brick_concrete_mossy", () -> new BlockItem(ModBlocks.BRICK_CONCRETE_MOSSY.get(), new Item.Properties().fireResistant().tab(MiscellaneousMod.BUILDING_GROUP)));
     public static final RegistryObject<BlockItem> BRICK_CONCRETE_CRACKED = ITEMS.register("brick_concrete_cracked", () -> new BlockItem(ModBlocks.BRICK_CONCRETE_CRACKED.get(), new Item.Properties().fireResistant().tab(MiscellaneousMod.BUILDING_GROUP)));
@@ -24,7 +25,12 @@ public class ModItems {
     public static final RegistryObject<BlockItem> CONCRETE_HAZARD = ITEMS.register("concrete_hazard", () -> new BlockItem(ModBlocks.CONCRETE_HAZARD.get(), new Item.Properties().fireResistant().tab(MiscellaneousMod.BUILDING_GROUP)));
     public static final RegistryObject<BlockItem> CONCRETE_TILE = ITEMS.register("concrete_tile", () -> new BlockItem(ModBlocks.CONCRETE_TILE.get(), new Item.Properties().fireResistant().tab(MiscellaneousMod.BUILDING_GROUP)));
     public static final RegistryObject<BlockItem> CONCRETE_WHITE = ITEMS.register("concrete_white", () -> new BlockItem(ModBlocks.CONCRETE_WHITE.get(), new Item.Properties().fireResistant().tab(MiscellaneousMod.BUILDING_GROUP)));
+    public static final RegistryObject<BlockItem> DANGER_METAL = ITEMS.register("danger_metal", () -> new BlockItem(ModBlocks.DANGER_METAL.get(), new Item.Properties().fireResistant().tab(MiscellaneousMod.BUILDING_GROUP)));
     public static final RegistryObject<BlockItem> DECO_BLOCK = ITEMS.register("deco_block", () -> new BlockItem(ModBlocks.DECO_BLOCK.get(), new Item.Properties().fireResistant().tab(MiscellaneousMod.BUILDING_GROUP)));
+    public static final RegistryObject<BlockItem> DECO_STEEL = ITEMS.register("deco_steel", () -> new BlockItem(ModBlocks.DECO_STEEL.get(), new Item.Properties().fireResistant().tab(MiscellaneousMod.BUILDING_GROUP)));
+    public static final RegistryObject<BlockItem> DUCRETE = ITEMS.register("ducrete", () -> new BlockItem(ModBlocks.DUCRETE.get(), new Item.Properties().fireResistant().tab(MiscellaneousMod.BUILDING_GROUP)));
+    public static final RegistryObject<BlockItem> DUCRETE_TILE = ITEMS.register("ducrete_tile", () -> new BlockItem(ModBlocks.DUCRETE_TILE.get(), new Item.Properties().fireResistant().tab(MiscellaneousMod.BUILDING_GROUP)));
+    public static final RegistryObject<BlockItem> LEAD = ITEMS.register("lead", () -> new BlockItem(ModBlocks.LEAD.get(), new Item.Properties().fireResistant().tab(MiscellaneousMod.BUILDING_GROUP)));
     public static final RegistryObject<BlockItem> SMALL_TILES = ITEMS.register("small_tiles", () -> new BlockItem(ModBlocks.SMALL_TILES.get(), new Item.Properties().fireResistant().tab(MiscellaneousMod.BUILDING_GROUP)));
 
     public static void register(IEventBus eventBus){

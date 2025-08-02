@@ -16,6 +16,7 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, MiscellaneousMod.MOD_ID);
 
     public static final RegistryObject<Block> ASPHALT = BLOCKS.register("asphalt", () -> new Block(AbstractBlock.Properties.of(Material.STONE, MaterialColor.COLOR_BLACK).strength(100, 200).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> BLUE_STEEL = BLOCKS.register("blue_steel", () -> new Block(AbstractBlock.Properties.of(Material.METAL, MaterialColor.COLOR_BLUE).strength(600, 1200).harvestTool(ToolType.PICKAXE).sound(SoundType.METAL)));
     public static final RegistryObject<Block> BRICK_CONCRETE = BLOCKS.register("brick_concrete", () -> new Block(AbstractBlock.Properties.of(Material.STONE, MaterialColor.COLOR_GRAY).strength(200, 400).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE)));
     public static final RegistryObject<Block> BRICK_CONCRETE_MOSSY = BLOCKS.register("brick_concrete_mossy", () -> new Block(AbstractBlock.Properties.of(Material.STONE, MaterialColor.COLOR_GRAY).strength(195, 390).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE)));
     public static final RegistryObject<Block> BRICK_CONCRETE_CRACKED = BLOCKS.register("brick_concrete_cracked", () -> new Block(AbstractBlock.Properties.of(Material.STONE, MaterialColor.COLOR_GRAY).strength(180, 360).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE)));
@@ -27,10 +28,13 @@ public class ModBlocks {
     public static final RegistryObject<Block> CONCRETE_HAZARD = BLOCKS.register("concrete_hazard", () -> new Block(AbstractBlock.Properties.of(Material.STONE, MaterialColor.COLOR_GRAY).strength(150, 300).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE)));
     public static final RegistryObject<Block> CONCRETE_TILE = BLOCKS.register("concrete_tile", () -> new Block(AbstractBlock.Properties.of(Material.STONE, MaterialColor.COLOR_GRAY).strength(150, 300).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE)));
     public static final RegistryObject<Block> CONCRETE_WHITE = BLOCKS.register("concrete_white", () -> new Block(AbstractBlock.Properties.of(Material.STONE, MaterialColor.COLOR_GRAY).strength(150, 300).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> DANGER_METAL = BLOCKS.register("danger_metal", () -> new Block(AbstractBlock.Properties.of(Material.METAL, MaterialColor.COLOR_GRAY).strength(200, 400).harvestTool(ToolType.PICKAXE).sound(SoundType.METAL)));
     public static final RegistryObject<Block> DECO_BLOCK = BLOCKS.register("deco_block", () -> new Block(AbstractBlock.Properties.of(Material.STONE, MaterialColor.COLOR_GRAY).strength(100, 200).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> DECO_STEEL = BLOCKS.register("deco_steel", () -> new Block(AbstractBlock.Properties.of(Material.METAL, MaterialColor.COLOR_GRAY).strength(200, 400).harvestTool(ToolType.PICKAXE).sound(SoundType.METAL)));
+    public static final RegistryObject<Block> DUCRETE = BLOCKS.register("ducrete", () -> new Block(AbstractBlock.Properties.of(Material.STONE, MaterialColor.COLOR_GRAY).strength(100, 200).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> DUCRETE_TILE = BLOCKS.register("ducrete_tile", () -> new Block(AbstractBlock.Properties.of(Material.STONE, MaterialColor.COLOR_GRAY).strength(200, 400).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> LEAD = BLOCKS.register("lead", () -> new Block(AbstractBlock.Properties.of(Material.METAL, MaterialColor.COLOR_GRAY).strength(200, 400).harvestTool(ToolType.PICKAXE).sound(SoundType.METAL)));
     public static final RegistryObject<Block> SMALL_TILES = BLOCKS.register("small_tiles", () -> new Block(AbstractBlock.Properties.of(Material.STONE, MaterialColor.COLOR_GRAY).strength(150, 300).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE)));
-
-
 
     public static void register(IEventBus eventBus){
         BLOCKS.register(eventBus);

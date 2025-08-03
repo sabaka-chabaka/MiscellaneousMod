@@ -32,7 +32,10 @@ public class ModItems {
     public static final RegistryObject<BlockItem> DUCRETE = ITEMS.register("ducrete", () -> new BlockItem(ModBlocks.DUCRETE.get(), new Item.Properties().fireResistant().tab(MiscellaneousMod.BUILDING_GROUP)));
     public static final RegistryObject<BlockItem> DUCRETE_TILE = ITEMS.register("ducrete_tile", () -> new BlockItem(ModBlocks.DUCRETE_TILE.get(), new Item.Properties().fireResistant().tab(MiscellaneousMod.BUILDING_GROUP)));
     public static final RegistryObject<BlockItem> LEAD = ITEMS.register("lead", () -> new BlockItem(ModBlocks.LEAD.get(), new Item.Properties().fireResistant().tab(MiscellaneousMod.BUILDING_GROUP)));
+    public static final RegistryObject<BlockItem> OLD_ASPHALT = ITEMS.register("old_asphalt", () -> new BlockItem(ModBlocks.OLD_ASPHALT.get(), new Item.Properties().fireResistant().tab(MiscellaneousMod.BUILDING_GROUP)));
+    public static final RegistryObject<BlockItem> PARQUET = ITEMS.register("parquet", () -> new BlockItem(ModBlocks.PARQUET.get(), new Item.Properties().fireResistant().tab(MiscellaneousMod.BUILDING_GROUP)));
     public static final RegistryObject<BlockItem> REINFORCED_STONE = ITEMS.register("reinforced_stone", () -> new BlockItem(ModBlocks.REINFORCED_STONE.get(), new Item.Properties().fireResistant().tab(MiscellaneousMod.BUILDING_GROUP)));
+    public static final RegistryObject<BlockItem> RUSTY_STEEL = ITEMS.register("rusty_steel", () -> new BlockItem(ModBlocks.RUSTY_STEEL.get(), new Item.Properties().fireResistant().tab(MiscellaneousMod.BUILDING_GROUP)));
     public static final RegistryObject<BlockItem> SMALL_TILES = ITEMS.register("small_tiles", () -> new BlockItem(ModBlocks.SMALL_TILES.get(), new Item.Properties().fireResistant().tab(MiscellaneousMod.BUILDING_GROUP)));
 
     public static void register(IEventBus eventBus){

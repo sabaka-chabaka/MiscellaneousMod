@@ -1,5 +1,6 @@
 ﻿{
-  "variants": {
-    "": { "model": "miscellaneousmod:block/rusty_steel" }
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "miscellaneousmod:blocks/rusty_steel"
   }
 }

@@ -28,9 +28,11 @@ public class ModItems {
     public static final RegistryObject<BlockItem> DANGER_METAL = ITEMS.register("danger_metal", () -> new BlockItem(ModBlocks.DANGER_METAL.get(), new Item.Properties().fireResistant().tab(MiscellaneousMod.BUILDING_GROUP)));
     public static final RegistryObject<BlockItem> DECO_BLOCK = ITEMS.register("deco_block", () -> new BlockItem(ModBlocks.DECO_BLOCK.get(), new Item.Properties().fireResistant().tab(MiscellaneousMod.BUILDING_GROUP)));
     public static final RegistryObject<BlockItem> DECO_STEEL = ITEMS.register("deco_steel", () -> new BlockItem(ModBlocks.DECO_STEEL.get(), new Item.Properties().fireResistant().tab(MiscellaneousMod.BUILDING_GROUP)));
+    public static final RegistryObject<BlockItem> DECO_STEEL_ALT = ITEMS.register("deco_steel_alt", () -> new BlockItem(ModBlocks.DECO_STEEL_ALT.get(), new Item.Properties().fireResistant().tab(MiscellaneousMod.BUILDING_GROUP)));
     public static final RegistryObject<BlockItem> DUCRETE = ITEMS.register("ducrete", () -> new BlockItem(ModBlocks.DUCRETE.get(), new Item.Properties().fireResistant().tab(MiscellaneousMod.BUILDING_GROUP)));
     public static final RegistryObject<BlockItem> DUCRETE_TILE = ITEMS.register("ducrete_tile", () -> new BlockItem(ModBlocks.DUCRETE_TILE.get(), new Item.Properties().fireResistant().tab(MiscellaneousMod.BUILDING_GROUP)));
     public static final RegistryObject<BlockItem> LEAD = ITEMS.register("lead", () -> new BlockItem(ModBlocks.LEAD.get(), new Item.Properties().fireResistant().tab(MiscellaneousMod.BUILDING_GROUP)));
+    public static final RegistryObject<BlockItem> REINFORCED_STONE = ITEMS.register("reinforced_stone", () -> new BlockItem(ModBlocks.REINFORCED_STONE.get(), new Item.Properties().fireResistant().tab(MiscellaneousMod.BUILDING_GROUP)));
     public static final RegistryObject<BlockItem> SMALL_TILES = ITEMS.register("small_tiles", () -> new BlockItem(ModBlocks.SMALL_TILES.get(), new Item.Properties().fireResistant().tab(MiscellaneousMod.BUILDING_GROUP)));
 
     public static void register(IEventBus eventBus){

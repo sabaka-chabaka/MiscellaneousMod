@@ -16,8 +16,10 @@
   "block.miscellaneousmod.danger_metal": "Метал с отметкой опасности",
   "block.miscellaneousmod.deco_block": "Декоративный блок",
   "block.miscellaneousmod.deco_steel": "Декоративная сталь",
+  "block.miscellaneousmod.deco_steel_alt": "Альтернативная декоративная сталь",
   "block.miscellaneousmod.ducrete": "Дюкрет",
   "block.miscellaneousmod.ducrete_tile": "Дюкретовая плита",
   "block.miscellaneousmod.lead": "Свинец",
+  "block.miscellaneousmod.reinforced_stone": "Усиленный камень",
   "block.miscellaneousmod.small_tiles": "Плитка"
 }

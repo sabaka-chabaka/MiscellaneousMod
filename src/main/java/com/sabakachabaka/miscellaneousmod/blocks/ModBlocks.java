@@ -31,9 +31,11 @@ public class ModBlocks {
     public static final RegistryObject<Block> DANGER_METAL = BLOCKS.register("danger_metal", () -> new Block(AbstractBlock.Properties.of(Material.METAL, MaterialColor.COLOR_GRAY).strength(200, 400).harvestTool(ToolType.PICKAXE).sound(SoundType.METAL)));
     public static final RegistryObject<Block> DECO_BLOCK = BLOCKS.register("deco_block", () -> new Block(AbstractBlock.Properties.of(Material.STONE, MaterialColor.COLOR_GRAY).strength(100, 200).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE)));
     public static final RegistryObject<Block> DECO_STEEL = BLOCKS.register("deco_steel", () -> new Block(AbstractBlock.Properties.of(Material.METAL, MaterialColor.COLOR_GRAY).strength(200, 400).harvestTool(ToolType.PICKAXE).sound(SoundType.METAL)));
+    public static final RegistryObject<Block> DECO_STEEL_ALT = BLOCKS.register("deco_steel_alt", () -> new Block(AbstractBlock.Properties.of(Material.METAL, MaterialColor.COLOR_GRAY).strength(200, 400).harvestTool(ToolType.PICKAXE).sound(SoundType.METAL)));
     public static final RegistryObject<Block> DUCRETE = BLOCKS.register("ducrete", () -> new Block(AbstractBlock.Properties.of(Material.STONE, MaterialColor.COLOR_GRAY).strength(100, 200).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE)));
     public static final RegistryObject<Block> DUCRETE_TILE = BLOCKS.register("ducrete_tile", () -> new Block(AbstractBlock.Properties.of(Material.STONE, MaterialColor.COLOR_GRAY).strength(200, 400).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE)));
     public static final RegistryObject<Block> LEAD = BLOCKS.register("lead", () -> new Block(AbstractBlock.Properties.of(Material.METAL, MaterialColor.COLOR_GRAY).strength(200, 400).harvestTool(ToolType.PICKAXE).sound(SoundType.METAL)));
+    public static final RegistryObject<Block> REINFORCED_STONE = BLOCKS.register("reinforced_stone", () -> new Block(AbstractBlock.Properties.of(Material.STONE, MaterialColor.COLOR_GRAY).strength(150, 300).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE)));
     public static final RegistryObject<Block> SMALL_TILES = BLOCKS.register("small_tiles", () -> new Block(AbstractBlock.Properties.of(Material.STONE, MaterialColor.COLOR_GRAY).strength(150, 300).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE)));
 
     public static void register(IEventBus eventBus){

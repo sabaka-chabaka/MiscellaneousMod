@@ -29,13 +29,13 @@ public class MiscellaneousMod {
 
     }
 
-    public static class BuildingGroup extends ItemGroup{
-        public BuildingGroup(String label){
+    public static class BuildingGroup extends ItemGroup {
+        public BuildingGroup(String label) {
             super(label);
         }
 
         @Override
-        public ItemStack makeIcon(){
+        public ItemStack makeIcon() {
             return ModItems.BRICK_CONCRETE.get().getDefaultInstance();
         }
     }

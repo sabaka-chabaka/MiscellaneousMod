@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6566e381-322b-4d8a-baab-6e13b90b37de" name="Changes" comment="Added new blocks">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/miscellaneousmod/models/item/banana_ice_cream.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/miscellaneousmod/models/item/chocolate_ice_cream.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/miscellaneousmod/models/item/ice_cream_bowl.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/miscellaneousmod/models/item/ice_cream_cone.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/miscellaneousmod/models/item/strawberry_ice_cream.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/miscellaneousmod/models/item/toffee_ice_cream.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/miscellaneousmod/models/item/vanilla_ice_cream.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sabakachabaka/miscellaneousmod/MiscellaneousMod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sabakachabaka/miscellaneousmod/MiscellaneousMod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sabakachabaka/miscellaneousmod/items/ModItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sabakachabaka/miscellaneousmod/items/ModItems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/miscellaneousmod/lang/ru_ru.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/miscellaneousmod/lang/ru_ru.json" afterDir="false" />
-    </list>
+    <list default="true" id="6566e381-322b-4d8a-baab-6e13b90b37de" name="Changes" comment="New Content" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -258,13 +245,22 @@
       <option name="project" value="LOCAL" />
       <updated>1754229278920</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="New Content">
+      <option name="closed" value="true" />
+      <created>1754292294783</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1754292294784</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit" />
     <MESSAGE value="Added new block" />
     <MESSAGE value="Added new blocks" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added new blocks" />
+    <MESSAGE value="New Content" />
+    <option name="LAST_COMMIT_MESSAGE" value="New Content" />
   </component>
 </project>

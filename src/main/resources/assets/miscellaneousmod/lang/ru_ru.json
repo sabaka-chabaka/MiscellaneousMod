@@ -1,5 +1,6 @@
 ﻿{
   "itemGroup.buildingtab": "MiscMod | Строительные блоки",
+  "itemGroup.foodtab": "MiscMod | Еда",
   "block.miscellaneousmod.asphalt": "Асфальт",
   "block.miscellaneousmod.blue_steel": "Синяя сталь",
   "block.miscellaneousmod.brick_concrete": "Бетонные кирпичи",
@@ -24,5 +25,12 @@
   "block.miscellaneousmod.parquet": "Паркет",
   "block.miscellaneousmod.reinforced_stone": "Усиленный камень",
   "block.miscellaneousmod.rusty_steel": "Ржавая сталь",
-  "block.miscellaneousmod.small_tiles": "Плитка"
+  "block.miscellaneousmod.small_tiles": "Плитка",
+  "item.miscellaneousmod.banana_ice_cream": "Банановое мороженное",
+  "item.miscellaneousmod.chocolate_ice_cream": "Шоколадное мороженное",
+  "item.miscellaneousmod.ice_cream_bowl": "Мороженное чаша",
+  "item.miscellaneousmod.ice_cream_cone": "Мороженнное конус",
+  "item.miscellaneousmod.strawberry_ice_cream": "Клубничное мороженно",
+  "item.miscellaneousmod.toffee_ice_cream": "Ирисковое мороженное",
+  "item.miscellaneousmod.vanilla_ice_cream": "Ванильное мороженное"
 }

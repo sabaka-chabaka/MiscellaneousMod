@@ -14,6 +14,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 public class MiscellaneousMod {
     public static final String MOD_ID = "miscellaneousmod";
     public static final ItemGroup BUILDING_GROUP = new BuildingGroup("buildingtab");
+    public static final ItemGroup FOOD_GROUP = new FoodGroup("foodtab");
 
     public MiscellaneousMod() {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
@@ -37,6 +38,15 @@ public class MiscellaneousMod {
         @Override
         public ItemStack makeIcon() {
             return ModItems.BRICK_CONCRETE.get().getDefaultInstance();
+        }
+    }
+
+    public static class FoodGroup extends ItemGroup {
+        public FoodGroup(String label) { super(label); }
+
+        @Override
+        public ItemStack makeIcon(){
+            return ModItems.BANANA_ICE_CREAM.get().getDefaultInstance();
         }
     }
 }

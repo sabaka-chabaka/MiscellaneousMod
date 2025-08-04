@@ -5,43 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6566e381-322b-4d8a-baab-6e13b90b37de" name="Changes" comment="Added new blocks">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/miscellaneousmod/models/item/banana_ice_cream.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/miscellaneousmod/models/item/chocolate_ice_cream.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/miscellaneousmod/models/item/ice_cream_bowl.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/miscellaneousmod/models/item/ice_cream_cone.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/miscellaneousmod/models/item/strawberry_ice_cream.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/miscellaneousmod/models/item/toffee_ice_cream.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/miscellaneousmod/models/item/vanilla_ice_cream.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2025-08-03-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-08-03-1.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2025-08-03-10.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-08-03-10.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2025-08-03-11.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-08-03-11.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2025-08-03-12.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-08-03-12.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2025-08-03-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-08-03-2.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2025-08-03-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-08-03-3.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2025-08-03-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-08-03-4.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2025-08-03-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-08-03-5.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2025-08-03-6.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-08-03-6.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2025-08-03-7.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-08-03-7.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2025-08-03-8.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-08-03-8.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2025-08-03-9.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-08-03-9.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-2.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-3.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-4.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-5.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Новый мир/DIM-1/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Новый мир/DIM-1/data/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Новый мир/DIM1/data/raids_end.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Новый мир/DIM1/data/raids_end.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Новый мир/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Новый мир/data/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Новый мир/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Новый мир/level.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Новый мир/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Новый мир/level.dat_old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Новый мир/playerdata/380df991-f603-344c-a090-369bad2a924a.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Новый мир/playerdata/380df991-f603-344c-a090-369bad2a924a.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Новый мир/playerdata/380df991-f603-344c-a090-369bad2a924a.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Новый мир/playerdata/380df991-f603-344c-a090-369bad2a924a.dat_old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Новый мир/region/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Новый мир/region/r.-1.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Новый мир/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Новый мир/region/r.-1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Новый мир/region/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Новый мир/region/r.0.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Новый мир/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Новый мир/region/r.0.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Новый мир/session.lock" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Новый мир/session.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Новый мир/stats/380df991-f603-344c-a090-369bad2a924a.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Новый мир/stats/380df991-f603-344c-a090-369bad2a924a.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/miscellaneousmod/models/block/old_asphalt.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/miscellaneousmod/models/block/old_asphalt.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/miscellaneousmod/models/block/parquet.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/miscellaneousmod/models/block/parquet.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/miscellaneousmod/models/block/rusty_steel.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/miscellaneousmod/models/block/rusty_steel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sabakachabaka/miscellaneousmod/MiscellaneousMod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sabakachabaka/miscellaneousmod/MiscellaneousMod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sabakachabaka/miscellaneousmod/items/ModItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sabakachabaka/miscellaneousmod/items/ModItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/miscellaneousmod/lang/ru_ru.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/miscellaneousmod/lang/ru_ru.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -275,7 +250,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754229016952</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added new blocks">
+      <option name="closed" value="true" />
+      <created>1754229278920</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1754229278920</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

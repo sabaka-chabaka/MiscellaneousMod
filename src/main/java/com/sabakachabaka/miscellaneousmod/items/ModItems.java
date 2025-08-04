@@ -3,6 +3,7 @@ package com.sabakachabaka.miscellaneousmod.items;
 import com.sabakachabaka.miscellaneousmod.MiscellaneousMod;
 import com.sabakachabaka.miscellaneousmod.blocks.ModBlocks;
 import net.minecraft.item.BlockItem;
+import net.minecraft.item.Food;
 import net.minecraft.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.RegistryObject;
@@ -12,6 +13,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MiscellaneousMod.MOD_ID);
 
+    //BlockItems
     public static final RegistryObject<BlockItem> ASPHALT = ITEMS.register("asphalt", () -> new BlockItem(ModBlocks.ASPHALT.get(), new Item.Properties().fireResistant().tab(MiscellaneousMod.BUILDING_GROUP)));
     public static final RegistryObject<BlockItem> BLUE_STEEL = ITEMS.register("blue_steel", () -> new BlockItem(ModBlocks.BLUE_STEEL.get(), new Item.Properties().fireResistant().tab(MiscellaneousMod.BUILDING_GROUP)));
     public static final RegistryObject<BlockItem> BRICK_CONCRETE = ITEMS.register("brick_concrete", () -> new BlockItem(ModBlocks.BRICK_CONCRETE.get(), new Item.Properties().fireResistant().tab(MiscellaneousMod.BUILDING_GROUP)));
@@ -37,6 +39,15 @@ public class ModItems {
     public static final RegistryObject<BlockItem> REINFORCED_STONE = ITEMS.register("reinforced_stone", () -> new BlockItem(ModBlocks.REINFORCED_STONE.get(), new Item.Properties().fireResistant().tab(MiscellaneousMod.BUILDING_GROUP)));
     public static final RegistryObject<BlockItem> RUSTY_STEEL = ITEMS.register("rusty_steel", () -> new BlockItem(ModBlocks.RUSTY_STEEL.get(), new Item.Properties().fireResistant().tab(MiscellaneousMod.BUILDING_GROUP)));
     public static final RegistryObject<BlockItem> SMALL_TILES = ITEMS.register("small_tiles", () -> new BlockItem(ModBlocks.SMALL_TILES.get(), new Item.Properties().fireResistant().tab(MiscellaneousMod.BUILDING_GROUP)));
+
+    //FoodItems
+    public static final RegistryObject<Item> BANANA_ICE_CREAM = ITEMS.register("banana_ice_cream", () -> new Item(new Item.Properties().tab(MiscellaneousMod.FOOD_GROUP).food(new Food.Builder().nutrition(1).saturationMod(0.2f).build())));
+    public static final RegistryObject<Item> CHOCOLATE_ICE_CREAM = ITEMS.register("chocolate_ice_cream", () -> new Item(new Item.Properties().tab(MiscellaneousMod.FOOD_GROUP).food(new Food.Builder().nutrition(1).saturationMod(0.2f).build())));
+    public static final RegistryObject<Item> ICE_CREAM_BOWL = ITEMS.register("ice_cream_bowl", () -> new Item(new Item.Properties().tab(MiscellaneousMod.FOOD_GROUP).food(new Food.Builder().nutrition(1).saturationMod(0.2f).build())));
+    public static final RegistryObject<Item> ICE_CREAM_CONE = ITEMS.register("ice_cream_cone", () -> new Item(new Item.Properties().tab(MiscellaneousMod.FOOD_GROUP).food(new Food.Builder().nutrition(1).saturationMod(0.2f).build())));
+    public static final RegistryObject<Item> STRAWBERRY_ICE_CREAM = ITEMS.register("strawberry_ice_cream", () -> new Item(new Item.Properties().tab(MiscellaneousMod.FOOD_GROUP).food(new Food.Builder().nutrition(1).saturationMod(0.2f).build())));
+    public static final RegistryObject<Item> TOFFEE_ICE_CREAM = ITEMS.register("toffee_ice_cream", () -> new Item(new Item.Properties().tab(MiscellaneousMod.FOOD_GROUP).food(new Food.Builder().nutrition(1).saturationMod(0.2f).build())));
+    public static final RegistryObject<Item> VANILLA_ICE_CREAM = ITEMS.register("vanilla_ice_cream", () -> new Item(new Item.Properties().tab(MiscellaneousMod.FOOD_GROUP).food(new Food.Builder().nutrition(1).saturationMod(0.2f).build())));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

@@ -2,9 +2,11 @@ package com.sabakachabaka.miscellaneousmod.items;
 
 import com.sabakachabaka.miscellaneousmod.MiscellaneousMod;
 import com.sabakachabaka.miscellaneousmod.blocks.ModBlocks;
+import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Food;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemGroup;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
@@ -40,6 +42,8 @@ public class ModItems {
     public static final RegistryObject<BlockItem> RUSTY_STEEL = ITEMS.register("rusty_steel", () -> new BlockItem(ModBlocks.RUSTY_STEEL.get(), new Item.Properties().fireResistant().tab(MiscellaneousMod.BUILDING_GROUP)));
     public static final RegistryObject<BlockItem> SMALL_TILES = ITEMS.register("small_tiles", () -> new BlockItem(ModBlocks.SMALL_TILES.get(), new Item.Properties().fireResistant().tab(MiscellaneousMod.BUILDING_GROUP)));
 
+    public static final RegistryObject<BlockItem> STEEL_ORE = ITEMS.register("steel_ore", () -> new BlockItem(ModBlocks.STEEL_ORE.get(), new Item.Properties().fireResistant().tab(MiscellaneousMod.ORE_GROUP)));
+
     //FoodItems
     public static final RegistryObject<Item> BANANA_ICE_CREAM = ITEMS.register("banana_ice_cream", () -> new Item(new Item.Properties().tab(MiscellaneousMod.FOOD_GROUP).food(new Food.Builder().nutrition(1).saturationMod(0.2f).build())));
     public static final RegistryObject<Item> CHOCOLATE_ICE_CREAM = ITEMS.register("chocolate_ice_cream", () -> new Item(new Item.Properties().tab(MiscellaneousMod.FOOD_GROUP).food(new Food.Builder().nutrition(1).saturationMod(0.2f).build())));
@@ -48,6 +52,11 @@ public class ModItems {
     public static final RegistryObject<Item> STRAWBERRY_ICE_CREAM = ITEMS.register("strawberry_ice_cream", () -> new Item(new Item.Properties().tab(MiscellaneousMod.FOOD_GROUP).food(new Food.Builder().nutrition(1).saturationMod(0.2f).build())));
     public static final RegistryObject<Item> TOFFEE_ICE_CREAM = ITEMS.register("toffee_ice_cream", () -> new Item(new Item.Properties().tab(MiscellaneousMod.FOOD_GROUP).food(new Food.Builder().nutrition(1).saturationMod(0.2f).build())));
     public static final RegistryObject<Item> VANILLA_ICE_CREAM = ITEMS.register("vanilla_ice_cream", () -> new Item(new Item.Properties().tab(MiscellaneousMod.FOOD_GROUP).food(new Food.Builder().nutrition(1).saturationMod(0.2f).build())));
+
+    //Ingots
+    public static final RegistryObject<Item> STEEL_INGOT = ITEMS.register("steel_ingot",
+            () -> new Item(new Item.Properties().tab(
+                    MiscellaneousMod.INGOT_GROUP).fireResistant()));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

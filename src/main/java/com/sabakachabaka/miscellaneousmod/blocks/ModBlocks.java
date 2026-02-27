@@ -1,6 +1,7 @@
 package com.sabakachabaka.miscellaneousmod.blocks;
 
 import com.sabakachabaka.miscellaneousmod.MiscellaneousMod;
+import com.sabakachabaka.miscellaneousmod.customblocks.SteelOre;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
@@ -40,6 +41,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> REINFORCED_STONE = BLOCKS.register("reinforced_stone", () -> new Block(AbstractBlock.Properties.of(Material.STONE, MaterialColor.COLOR_GRAY).strength(150, 300).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE)));
     public static final RegistryObject<Block> RUSTY_STEEL = BLOCKS.register("rusty_steel", () -> new Block(AbstractBlock.Properties.of(Material.METAL, MaterialColor.COLOR_GRAY).strength(150, 300).harvestTool(ToolType.PICKAXE).sound(SoundType.METAL)));
     public static final RegistryObject<Block> SMALL_TILES = BLOCKS.register("small_tiles", () -> new Block(AbstractBlock.Properties.of(Material.STONE, MaterialColor.COLOR_GRAY).strength(150, 300).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> STEEL_ORE = BLOCKS.register("steel_ore", SteelOre::new);
 
     public static void register(IEventBus eventBus){
         BLOCKS.register(eventBus);

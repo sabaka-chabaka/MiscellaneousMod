@@ -3,6 +3,7 @@
   "itemGroup.foodtab": "MiscMod | Food",
   "itemGroup.oretab": "MiscMod | Ore",
   "itemGroup.ingottab": "MiscMod | Ingots",
+  "itemGroup.grenadetab": "MiscMod | Grenades",
   "block.miscellaneousmod.asphalt": "Asphalt",
   "block.miscellaneousmod.blue_steel": "Blue steel",
   "block.miscellaneousmod.brick_concrete": "Brick concrete",
@@ -36,5 +37,6 @@
   "item.miscellaneousmod.toffee_ice_cream": "Toffee ice cream",
   "item.miscellaneousmod.vanilla_ice_cream": "Vanilla ice cream",
   "block.miscellaneousmod.steel_ore": "Steel ore",
-  "item.miscellaneousmod.steel_ingot": "Steel ingot"
+  "item.miscellaneousmod.steel_ingot": "Steel ingot",
+  "item.miscellaneousmod.grenade": "Grenade"
 }

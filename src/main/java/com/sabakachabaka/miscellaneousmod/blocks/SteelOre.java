@@ -1,4 +1,4 @@
-package com.sabakachabaka.miscellaneousmod.customblocks;
+package com.sabakachabaka.miscellaneousmod.blocks;
 
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;

@@ -58,6 +58,11 @@ public class ModItems {
             () -> new Item(new Item.Properties().tab(
                     MiscellaneousMod.INGOT_GROUP).fireResistant()));
 
+    //Customs
+    public static final RegistryObject<Item> GRENADE_ITEM = ITEMS.register("grenade",
+            () -> new GrenadeItem(new Item.Properties().tab(MiscellaneousMod.GRENADE_GROUP)));
+
+
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
     }

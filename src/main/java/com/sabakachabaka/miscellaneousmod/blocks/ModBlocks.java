@@ -1,7 +1,6 @@
 package com.sabakachabaka.miscellaneousmod.blocks;
 
 import com.sabakachabaka.miscellaneousmod.MiscellaneousMod;
-import com.sabakachabaka.miscellaneousmod.customblocks.SteelOre;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "SSS",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "miscellaneousmod:steel_ingot"
+    }
+  },
+  "result": {
+    "item": "miscellaneousmod:deco_steel",
+    "count": 1
+  }
+}

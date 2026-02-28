@@ -1,7 +1,7 @@
 package com.sabakachabaka.miscellaneousmod.screens;
 
 import com.mojang.blaze3d.matrix.MatrixStack;
-import com.sabakachabaka.miscellaneousmod.items.BackpackContainer;
+import com.sabakachabaka.miscellaneousmod.containers.BackpackContainer;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.screen.inventory.ContainerScreen;
 import net.minecraft.entity.player.PlayerInventory;

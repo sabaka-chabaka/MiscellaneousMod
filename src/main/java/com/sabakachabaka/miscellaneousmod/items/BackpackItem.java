@@ -1,6 +1,7 @@
 package com.sabakachabaka.miscellaneousmod.items;
 
 import com.sabakachabaka.miscellaneousmod.MiscellaneousMod;
+import com.sabakachabaka.miscellaneousmod.containers.BackpackContainer;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.inventory.container.SimpleNamedContainerProvider;
 import net.minecraft.item.Item;

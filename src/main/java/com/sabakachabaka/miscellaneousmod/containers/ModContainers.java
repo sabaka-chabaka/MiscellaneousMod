@@ -1,8 +1,6 @@
 package com.sabakachabaka.miscellaneousmod.containers;
 
 import com.sabakachabaka.miscellaneousmod.MiscellaneousMod;
-import com.sabakachabaka.miscellaneousmod.items.BackpackContainer;
-import net.minecraft.inventory.container.Container;
 import net.minecraft.inventory.container.ContainerType;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.extensions.IForgeContainerType;

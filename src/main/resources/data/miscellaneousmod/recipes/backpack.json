@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "ISI",
+    "III"
+  ],
+  "key": {
+    "S": {
+      "item": "miscellaneousmod:steel_ingot"
+    },
+    "I": {
+      "item": "minecraft:leather"
+    }
+  },
+  "result": {
+    "item": "miscellaneousmod:backpack",
+    "count": 1
+  }
+}

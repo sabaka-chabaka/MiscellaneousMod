@@ -4,8 +4,9 @@
   "itemGroup.oretab": "MiscMod | Ore",
   "itemGroup.ingottab": "MiscMod | Ingots",
   "itemGroup.grenadetab": "MiscMod | Grenades",
-  "itemGroup.toolstab": "MiscMod | Tools",,
+  "itemGroup.toolstab": "MiscMod | Tools",
   "itemGroup.armortab": "MiscMod | Armor",
+  "itemGroup.backpacktab": "MiscMod | Backpacks",
   "block.miscellaneousmod.asphalt": "Asphalt",
   "block.miscellaneousmod.blue_steel": "Blue steel",
   "block.miscellaneousmod.brick_concrete": "Brick concrete",
@@ -50,5 +51,6 @@
   "item.miscellaneousmod.steel_chestplate": "Steel plate",
   "item.miscellaneousmod.steel_leggings": "Steel leggings",
   "item.miscellaneousmod.steel_boots": "Steel boots",
-  "enchantment.miscellaneousmod.electrum": "Electrum"
+  "enchantment.miscellaneousmod.electrum": "Electrum",
+  "item.miscellaneousmod.backpack": "Backpack"
 }

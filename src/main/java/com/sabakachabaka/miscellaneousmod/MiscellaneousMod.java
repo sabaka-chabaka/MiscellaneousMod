@@ -1,11 +1,14 @@
 package com.sabakachabaka.miscellaneousmod;
 
 import com.sabakachabaka.miscellaneousmod.blocks.ModBlocks;
+import com.sabakachabaka.miscellaneousmod.containers.ModContainers;
 import com.sabakachabaka.miscellaneousmod.enchantments.ModEnchantments;
 import com.sabakachabaka.miscellaneousmod.entity.ModEntities;
 import com.sabakachabaka.miscellaneousmod.items.ModItems;
+import com.sabakachabaka.miscellaneousmod.screens.BackpackScreen;
 import com.sabakachabaka.miscellaneousmod.world.ModOreGeneration;
 import net.minecraft.client.Minecraft;
+import net.minecraft.client.gui.ScreenManager;
 import net.minecraft.client.renderer.entity.SpriteRenderer;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -28,6 +31,7 @@ public class MiscellaneousMod
     public static final ItemGroup GRENADE_GROUP = new GrenadeGroup("grenadetab");
     public static final ItemGroup TOOLS_GROUP = new ToolsGroup("toolstab");
     public static final ItemGroup ARMOR_GROUP = new ArmorGroup("armortab");
+    public static final ItemGroup BACKPACK_GROUP = new BackpackGroup("backpacktab");
 
     public MiscellaneousMod() {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
@@ -36,6 +40,7 @@ public class MiscellaneousMod
         ModBlocks.register(eventBus);
         ModEntities.register(eventBus);
         ModEnchantments.register(eventBus);
+        ModContainers.register(eventBus);
 
         eventBus.addListener(this::setup);
         eventBus.addListener(this::clientSetup);
@@ -50,8 +55,11 @@ public class MiscellaneousMod
     private void clientSetup(final FMLClientSetupEvent event) {
         RenderingRegistry.registerEntityRenderingHandler(ModEntities.GRENADE.get(),
                 renderManager -> new SpriteRenderer<>(renderManager, Minecraft.getInstance().getItemRenderer()));
+        ScreenManager.register(
+                ModContainers.BACKPACK.get(),
+                BackpackScreen::new
+        );
     }
-
 
     public static class BuildingGroup extends ItemGroup {
         public BuildingGroup(String label) {
@@ -115,6 +123,15 @@ public class MiscellaneousMod
         @Override
         public ItemStack makeIcon(){
             return ModItems.STEEL_CHESTPLATE.get().getDefaultInstance();
+        }
+    }
+
+    public static class BackpackGroup extends ItemGroup {
+        public BackpackGroup(String label) { super(label); }
+
+        @Override
+        public ItemStack makeIcon(){
+            return ModItems.BACKPACK_ITEM.get().getDefaultInstance();
         }
     }
 }

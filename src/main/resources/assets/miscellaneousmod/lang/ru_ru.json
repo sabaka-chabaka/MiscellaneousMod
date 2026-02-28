@@ -6,6 +6,7 @@
   "itemGroup.grenadetab": "MiscMod | Гранаты",
   "itemGroup.toolstab": "MiscMod | Инструменты",
   "itemGroup.armortab": "MiscMod | Броня",
+  "itemGroup.backpacktab": "MiscMod | Рюкзаки",
   "block.miscellaneousmod.asphalt": "Асфальт",
   "block.miscellaneousmod.blue_steel": "Синяя сталь",
   "block.miscellaneousmod.brick_concrete": "Бетонные кирпичи",
@@ -50,5 +51,6 @@
   "item.miscellaneousmod.steel_chestplate": "Стальной нагрудник",
   "item.miscellaneousmod.steel_leggings": "Стальные поножи",
   "item.miscellaneousmod.steel_boots": "Стальные ботинки",
-  "enchantment.miscellaneousmod.electrum": "Электрум"
+  "enchantment.miscellaneousmod.electrum": "Электрум",
+  "item.miscellaneousmod.backpack": "Рюкзак"
 }

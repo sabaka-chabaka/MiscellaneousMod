@@ -82,6 +82,8 @@ public class ModItems {
     public static final RegistryObject<Item> STEEL_BOOTS = ITEMS.register("steel_boots",
             () -> new ArmorItem(ModArmorMaterial.STEEL, EquipmentSlotType.FEET, new Item.Properties().tab(MiscellaneousMod.ARMOR_GROUP)));
 
+    public static final RegistryObject<Item> BACKPACK_ITEM = ITEMS.register("backpack", BackpackItem::new);
+
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

@@ -40,13 +40,14 @@
   "block.miscellaneousmod.steel_ore": "Стальная руда",
   "item.miscellaneousmod.steel_ingot": "Стальной слиток",
   "item.miscellaneousmod.grenade": "Граната",
-  "item.miscellaneousmod.steel_axe": "Steel axe",
-  "item.miscellaneousmod.steel_hoe": "Steel hoe",
-  "item.miscellaneousmod.steel_pickaxe": "Steel pickaxe",
-  "item.miscellaneousmod.steel_shovel": "Steel shovel",
-  "item.miscellaneousmod.steel_sword": "Steel sword",
-  "item.miscellaneousmod.steel_helmet": "Steel helmet",
-  "item.miscellaneousmod.steel_chestplate": "Steel plate",
-  "item.miscellaneousmod.steel_leggings": "Steel leggings",
-  "item.miscellaneousmod.steel_boots": "Steel boots"
+  "item.miscellaneousmod.steel_axe": "Стальной топор",
+  "item.miscellaneousmod.steel_hoe": "Стальная мотыга",
+  "item.miscellaneousmod.steel_pickaxe": "Стальная кирка",
+  "item.miscellaneousmod.steel_shovel": "Стальная лопата",
+  "item.miscellaneousmod.steel_sword": "Стальной меч",
+  "item.miscellaneousmod.steel_helmet": "Стальной шлем",
+  "item.miscellaneousmod.steel_chestplate": "Стальной нагрудник",
+  "item.miscellaneousmod.steel_leggings": "Стальные поножи",
+  "item.miscellaneousmod.steel_boots": "Стальные ботинки",
+  "enchantment.miscellaneousmod.electrum": "Электрум"
 }

@@ -1,6 +1,7 @@
 package com.sabakachabaka.miscellaneousmod;
 
 import com.sabakachabaka.miscellaneousmod.blocks.ModBlocks;
+import com.sabakachabaka.miscellaneousmod.enchantments.ModEnchantments;
 import com.sabakachabaka.miscellaneousmod.entity.ModEntities;
 import com.sabakachabaka.miscellaneousmod.items.ModItems;
 import com.sabakachabaka.miscellaneousmod.world.ModOreGeneration;
@@ -34,6 +35,7 @@ public class MiscellaneousMod
         ModItems.register(eventBus);
         ModBlocks.register(eventBus);
         ModEntities.register(eventBus);
+        ModEnchantments.register(eventBus);
 
         eventBus.addListener(this::setup);
         eventBus.addListener(this::clientSetup);

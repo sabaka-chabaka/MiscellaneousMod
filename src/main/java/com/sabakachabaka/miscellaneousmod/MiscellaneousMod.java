@@ -26,6 +26,7 @@ public class MiscellaneousMod
     public static final ItemGroup INGOT_GROUP = new IngotGroup("ingottab");
     public static final ItemGroup GRENADE_GROUP = new GrenadeGroup("grenadetab");
     public static final ItemGroup TOOLS_GROUP = new ToolsGroup("toolstab");
+    public static final ItemGroup ARMOR_GROUP = new ArmorGroup("armortab");
 
     public MiscellaneousMod() {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
@@ -103,6 +104,15 @@ public class MiscellaneousMod
         @Override
         public ItemStack makeIcon(){
             return ModItems.STEEL_SWORD.get().getDefaultInstance();
+        }
+    }
+
+    public static class ArmorGroup extends ItemGroup {
+        public ArmorGroup(String label) { super(label); }
+
+        @Override
+        public ItemStack makeIcon(){
+            return ModItems.STEEL_CHESTPLATE.get().getDefaultInstance();
         }
     }
 }

@@ -44,5 +44,9 @@
   "item.miscellaneousmod.steel_hoe": "Steel hoe",
   "item.miscellaneousmod.steel_pickaxe": "Steel pickaxe",
   "item.miscellaneousmod.steel_shovel": "Steel shovel",
-  "item.miscellaneousmod.steel_sword": "Steel sword"
+  "item.miscellaneousmod.steel_sword": "Steel sword",
+  "item.miscellaneousmod.steel_helmet": "Steel helmet",
+  "item.miscellaneousmod.steel_chestplate": "Steel plate",
+  "item.miscellaneousmod.steel_leggings": "Steel leggings",
+  "item.miscellaneousmod.steel_boots": "Steel boots"
 }

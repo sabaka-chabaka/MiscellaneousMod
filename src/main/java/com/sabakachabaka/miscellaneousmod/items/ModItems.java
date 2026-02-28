@@ -1,12 +1,10 @@
 package com.sabakachabaka.miscellaneousmod.items;
 
 import com.sabakachabaka.miscellaneousmod.MiscellaneousMod;
+import com.sabakachabaka.miscellaneousmod.ModItemTier;
 import com.sabakachabaka.miscellaneousmod.blocks.ModBlocks;
 import net.minecraft.block.Block;
-import net.minecraft.item.BlockItem;
-import net.minecraft.item.Food;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
+import net.minecraft.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
@@ -15,7 +13,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MiscellaneousMod.MOD_ID);
 
-    //BlockItems
+    // Block Items
     public static final RegistryObject<BlockItem> ASPHALT = ITEMS.register("asphalt", () -> new BlockItem(ModBlocks.ASPHALT.get(), new Item.Properties().fireResistant().tab(MiscellaneousMod.BUILDING_GROUP)));
     public static final RegistryObject<BlockItem> BLUE_STEEL = ITEMS.register("blue_steel", () -> new BlockItem(ModBlocks.BLUE_STEEL.get(), new Item.Properties().fireResistant().tab(MiscellaneousMod.BUILDING_GROUP)));
     public static final RegistryObject<BlockItem> BRICK_CONCRETE = ITEMS.register("brick_concrete", () -> new BlockItem(ModBlocks.BRICK_CONCRETE.get(), new Item.Properties().fireResistant().tab(MiscellaneousMod.BUILDING_GROUP)));
@@ -44,7 +42,7 @@ public class ModItems {
 
     public static final RegistryObject<BlockItem> STEEL_ORE = ITEMS.register("steel_ore", () -> new BlockItem(ModBlocks.STEEL_ORE.get(), new Item.Properties().fireResistant().tab(MiscellaneousMod.ORE_GROUP)));
 
-    //FoodItems
+    // Food Items
     public static final RegistryObject<Item> BANANA_ICE_CREAM = ITEMS.register("banana_ice_cream", () -> new Item(new Item.Properties().tab(MiscellaneousMod.FOOD_GROUP).food(new Food.Builder().nutrition(1).saturationMod(0.2f).build())));
     public static final RegistryObject<Item> CHOCOLATE_ICE_CREAM = ITEMS.register("chocolate_ice_cream", () -> new Item(new Item.Properties().tab(MiscellaneousMod.FOOD_GROUP).food(new Food.Builder().nutrition(1).saturationMod(0.2f).build())));
     public static final RegistryObject<Item> ICE_CREAM_BOWL = ITEMS.register("ice_cream_bowl", () -> new Item(new Item.Properties().tab(MiscellaneousMod.FOOD_GROUP).food(new Food.Builder().nutrition(1).saturationMod(0.2f).build())));
@@ -53,15 +51,21 @@ public class ModItems {
     public static final RegistryObject<Item> TOFFEE_ICE_CREAM = ITEMS.register("toffee_ice_cream", () -> new Item(new Item.Properties().tab(MiscellaneousMod.FOOD_GROUP).food(new Food.Builder().nutrition(1).saturationMod(0.2f).build())));
     public static final RegistryObject<Item> VANILLA_ICE_CREAM = ITEMS.register("vanilla_ice_cream", () -> new Item(new Item.Properties().tab(MiscellaneousMod.FOOD_GROUP).food(new Food.Builder().nutrition(1).saturationMod(0.2f).build())));
 
-    //Ingots
+    // Ingots
     public static final RegistryObject<Item> STEEL_INGOT = ITEMS.register("steel_ingot",
             () -> new Item(new Item.Properties().tab(
                     MiscellaneousMod.INGOT_GROUP).fireResistant()));
 
-    //Customs
+    // Customs
     public static final RegistryObject<Item> GRENADE_ITEM = ITEMS.register("grenade",
             () -> new GrenadeItem(new Item.Properties().tab(MiscellaneousMod.GRENADE_GROUP)));
 
+    // Tools
+    public static final RegistryObject<Item> STEEL_SWORD = ITEMS.register("steel_sword", () -> new SwordItem(ModItemTier.STEEL, 3, 1, new Item.Properties().tab(MiscellaneousMod.TOOLS_GROUP)));
+    public static final RegistryObject<Item> STEEL_PICKAXE = ITEMS.register("steel_pickaxe", () -> new PickaxeItem(ModItemTier.STEEL, 3, 1, new Item.Properties().tab(MiscellaneousMod.TOOLS_GROUP)));
+    public static final RegistryObject<Item> STEEL_AXE = ITEMS.register("steel_axe", () -> new AxeItem(ModItemTier.STEEL, 3, 1, new Item.Properties().tab(MiscellaneousMod.TOOLS_GROUP)));
+    public static final RegistryObject<Item> STEEL_SHOVEL = ITEMS.register("steel_shovel", () -> new ShovelItem(ModItemTier.STEEL, 3, 1, new Item.Properties().tab(MiscellaneousMod.TOOLS_GROUP)));
+    public static final RegistryObject<Item> STEEL_HOE = ITEMS.register("steel_hoe", () -> new HoeItem(ModItemTier.STEEL, 3, 1, new Item.Properties().tab(MiscellaneousMod.TOOLS_GROUP)));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

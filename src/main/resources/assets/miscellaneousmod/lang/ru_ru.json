@@ -4,6 +4,7 @@
   "itemGroup.oretab": "MiscMod | Руда",
   "itemGroup.ingottab": "MiscMod | Слитки",
   "itemGroup.grenadetab": "MiscMod | Гранаты",
+  "itemGroup.toolstab": "MiscMod | Инструменты",
   "block.miscellaneousmod.asphalt": "Асфальт",
   "block.miscellaneousmod.blue_steel": "Синяя сталь",
   "block.miscellaneousmod.brick_concrete": "Бетонные кирпичи",
@@ -38,5 +39,10 @@
   "item.miscellaneousmod.vanilla_ice_cream": "Ванильное мороженное",
   "block.miscellaneousmod.steel_ore": "Стальная руда",
   "item.miscellaneousmod.steel_ingot": "Стальной слиток",
-  "item.miscellaneousmod.grenade": "Граната"
+  "item.miscellaneousmod.grenade": "Граната",
+  "item.miscellaneousmod.steel_axe": "Steel axe",
+  "item.miscellaneousmod.steel_hoe": "Steel hoe",
+  "item.miscellaneousmod.steel_pickaxe": "Steel pickaxe",
+  "item.miscellaneousmod.steel_shovel": "Steel shovel",
+  "item.miscellaneousmod.steel_sword": "Steel sword"
 }

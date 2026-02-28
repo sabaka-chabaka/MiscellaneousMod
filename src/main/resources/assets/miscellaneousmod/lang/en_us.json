@@ -4,6 +4,7 @@
   "itemGroup.oretab": "MiscMod | Ore",
   "itemGroup.ingottab": "MiscMod | Ingots",
   "itemGroup.grenadetab": "MiscMod | Grenades",
+  "itemGroup.toolstab": "MiscMod | Tools",
   "block.miscellaneousmod.asphalt": "Asphalt",
   "block.miscellaneousmod.blue_steel": "Blue steel",
   "block.miscellaneousmod.brick_concrete": "Brick concrete",
@@ -38,5 +39,10 @@
   "item.miscellaneousmod.vanilla_ice_cream": "Vanilla ice cream",
   "block.miscellaneousmod.steel_ore": "Steel ore",
   "item.miscellaneousmod.steel_ingot": "Steel ingot",
-  "item.miscellaneousmod.grenade": "Grenade"
+  "item.miscellaneousmod.grenade": "Grenade",
+  "item.miscellaneousmod.steel_axe": "Steel axe",
+  "item.miscellaneousmod.steel_hoe": "Steel hoe",
+  "item.miscellaneousmod.steel_pickaxe": "Steel pickaxe",
+  "item.miscellaneousmod.steel_shovel": "Steel shovel",
+  "item.miscellaneousmod.steel_sword": "Steel sword"
 }

@@ -54,5 +54,6 @@
   "enchantment.miscellaneousmod.electrum": "Electrum",
   "item.miscellaneousmod.backpack": "Backpack",
   "block.miscellaneousmod.titanium_ore": "Titanium ore",
-  "item.miscellaneousmod.titanium_ingot": "Titanium ingot"
+  "item.miscellaneousmod.titanium_ingot": "Titanium ingot",
+  "block.miscellaneousmod.titanium_block": "Titanium block"
 }

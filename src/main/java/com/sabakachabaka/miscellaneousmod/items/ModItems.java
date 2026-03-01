@@ -11,6 +11,7 @@ import net.minecraft.potion.EffectInstance;
 import net.minecraft.potion.Effects;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.RegistryObject;
+import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 
@@ -46,6 +47,7 @@ public class ModItems {
     public static final RegistryObject<BlockItem> STEEL_ORE = ITEMS.register("steel_ore", () -> new BlockItem(ModBlocks.STEEL_ORE.get(), new Item.Properties().fireResistant().tab(MiscellaneousMod.ORE_GROUP)));
     public static final RegistryObject<BlockItem> TITANIUM_ORE = ITEMS.register("titanium_ore", () -> new BlockItem(ModBlocks.TITANIUM_ORE.get(), new Item.Properties().fireResistant().tab(MiscellaneousMod.ORE_GROUP)));
     public static final RegistryObject<BlockItem> TITANIUM_BLOCK = ITEMS.register("titanium_block", () -> new BlockItem(ModBlocks.TITANIUM_BLOCK.get(), new Item.Properties().fireResistant().tab(MiscellaneousMod.BUILDING_GROUP)));
+    public static final RegistryObject<BlockItem> DESH_BLOCK = ITEMS.register("desh_block", () -> new BlockItem(ModBlocks.TITANIUM_BLOCK.get(), new Item.Properties().fireResistant().tab(MiscellaneousMod.BUILDING_GROUP)));
 
     // Food Items
     public static final RegistryObject<Item> BANANA_ICE_CREAM = ITEMS.register("banana_ice_cream", () -> new Item(new Item.Properties().tab(MiscellaneousMod.FOOD_GROUP).food(new Food.Builder().nutrition(1).saturationMod(0.2f).build())));

@@ -66,5 +66,6 @@
   "item.miscellaneousmod.titanium_shovel": "Титановая лопата",
   "item.miscellaneousmod.titanium_sword": "Титановый меч",
   "item.miscellaneousmod.strawberry_candy": "Клубничная конфета",
-  "item.miscellaneousmod.desh_ingot": "Слиток из деша"
+  "item.miscellaneousmod.desh_ingot": "Слиток из деша",
+  "block.miscellaneousmod.desh_block": "Блок из деша"
 }

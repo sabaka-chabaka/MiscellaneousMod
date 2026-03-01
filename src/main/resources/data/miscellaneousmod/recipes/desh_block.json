@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "SSS",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "miscellaneousmod:desh_ingot"
+    }
+  },
+  "result": {
+    "item": "miscellaneousmod:desh_block",
+    "count": 1
+  }
+}

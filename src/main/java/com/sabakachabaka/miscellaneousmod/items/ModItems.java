@@ -96,6 +96,21 @@ public class ModItems {
     public static final RegistryObject<Item> TITANIUM_HOE = ITEMS.register("titanium_hoe",
             () -> new HoeItem(ModItemTier.TITANIUM, -2, -1.0F, new Item.Properties().tab(MiscellaneousMod.TOOLS_GROUP)));
 
+    public static final RegistryObject<Item> DESH_SWORD = ITEMS.register("desh_sword",
+            () -> new SwordItem(ModItemTier.DESH, 3, -2.4F, new Item.Properties().tab(MiscellaneousMod.TOOLS_GROUP)));
+
+    public static final RegistryObject<Item> DESH_PICKAXE = ITEMS.register("desh_pickaxe",
+            () -> new PickaxeItem(ModItemTier.DESH, 1, -2.8F, new Item.Properties().tab(MiscellaneousMod.TOOLS_GROUP)));
+
+    public static final RegistryObject<Item> DESH_AXE = ITEMS.register("desh_axe",
+            () -> new AxeItem(ModItemTier.DESH, 5.0F, -3.0F, new Item.Properties().tab(MiscellaneousMod.TOOLS_GROUP)));
+
+    public static final RegistryObject<Item> DESH_SHOVEL = ITEMS.register("desh_shovel",
+            () -> new ShovelItem(ModItemTier.DESH, 1.5F, -3.0F, new Item.Properties().tab(MiscellaneousMod.TOOLS_GROUP)));
+
+    public static final RegistryObject<Item> DESH_HOE = ITEMS.register("desh_hoe",
+            () -> new HoeItem(ModItemTier.DESH, -2, -1.0F, new Item.Properties().tab(MiscellaneousMod.TOOLS_GROUP)));
+
     // Armor
     public static final RegistryObject<Item> STEEL_HELMET = ITEMS.register("steel_helmet",
             () -> new ArmorItem(ModArmorMaterial.STEEL, EquipmentSlotType.HEAD, new Item.Properties().tab(MiscellaneousMod.ARMOR_GROUP)));

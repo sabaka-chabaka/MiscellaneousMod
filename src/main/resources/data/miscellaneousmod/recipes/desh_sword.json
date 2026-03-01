@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S ",
+    " S ",
+    " I "
+  ],
+  "key": {
+    "S": {
+      "item": "miscellaneousmod:desh_ingot"
+    },
+    "I": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "miscellaneousmod:desh_sword",
+    "count": 1
+  }
+}

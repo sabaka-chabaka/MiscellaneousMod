@@ -67,5 +67,10 @@
   "item.miscellaneousmod.titanium_sword": "Titanium sword",
   "item.miscellaneousmod.strawberry_candy": "Strawberry candy",
   "item.miscellaneousmod.desh_ingot": "Desh ingot",
-  "block_miscellaneousmod.desh_block": "Desh block"
+  "block_miscellaneousmod.desh_block": "Desh block",
+  "item.miscellaneousmod.desh_pickaxe": "Desh pickaxe",
+  "item.miscellaneousmod.desh_shovel": "Desh shovel",
+  "item.miscellaneousmod.desh_sword": "Desh sword",
+  "item.miscellaneousmod.desh_hoe": "Desh hoe",
+  "item.miscellaneousmod.desh_axe": "Desh axe"
 }

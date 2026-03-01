@@ -55,5 +55,14 @@
   "item.miscellaneousmod.backpack": "Backpack",
   "block.miscellaneousmod.titanium_ore": "Titanium ore",
   "item.miscellaneousmod.titanium_ingot": "Titanium ingot",
-  "block.miscellaneousmod.titanium_block": "Titanium block"
+  "block.miscellaneousmod.titanium_block": "Titanium block",
+  "item.miscellaneousmod.titanium_axe": "Titanium axe",
+  "item.miscellaneousmod.titanium_boots": "Titanium boots",
+  "item.miscellaneousmod.titanium_chestplate": "Titanium chestplate",
+  "item.miscellaneousmod.titanium_helmet": "Titanium helmet",
+  "item.miscellaneousmod.titanium_hoe": "Titanium hoe",
+  "item.miscellaneousmod.titanium_legs": "Titanium legs",
+  "item.miscellaneousmod.titanium_pickaxe": "Titanium pickaxe",
+  "item.miscellaneousmod.titanium_shovel": "Titanium shovel",
+  "item.miscellaneousmod.titanium_sword": "Titanium sword"
 }

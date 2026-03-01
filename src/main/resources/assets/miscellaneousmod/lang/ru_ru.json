@@ -55,5 +55,14 @@
   "item.miscellaneousmod.backpack": "Рюкзак",
   "block.miscellaneousmod.titanium_ore": "Титановая руда",
   "item.miscellaneousmod.titanium_ingot": "Титановый слиток",
-  "block.miscellaneousmod.titanium_block": "Титановый блок"
+  "block.miscellaneousmod.titanium_block": "Титановый блок",
+  "item.miscellaneousmod.titanium_axe": "Титановый топор",
+  "item.miscellaneousmod.titanium_boots": "Титановые ботинки",
+  "item.miscellaneousmod.titanium_chestplate": "Титановый нагрудник",
+  "item.miscellaneousmod.titanium_helmet": "Титановый шлем",
+  "item.miscellaneousmod.titanium_hoe": "Титановая мотыга",
+  "item.miscellaneousmod.titanium_legs": "Титановые поножи",
+  "item.miscellaneousmod.titanium_pickaxe": "Титановая кирка",
+  "item.miscellaneousmod.titanium_shovel": "Титановая лопата",
+  "item.miscellaneousmod.titanium_sword": "Титановый меч"
 }

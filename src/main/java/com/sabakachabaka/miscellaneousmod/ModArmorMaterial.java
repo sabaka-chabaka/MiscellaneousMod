@@ -13,7 +13,8 @@ import java.util.function.Supplier;
 public enum ModArmorMaterial implements IArmorMaterial {
     STEEL("miscellaneousmod:steel", 25, new int[]{2, 5, 6, 2}, 15,
             SoundEvents.ARMOR_EQUIP_IRON, 1.0F, 0.0F,
-            () -> Ingredient.of(ModItems.STEEL_INGOT.get()));
+            () -> Ingredient.of(ModItems.STEEL_INGOT.get())),
+    TITANIUM("miscellaneousmod:titanium", 50, new int[]{3, 6, 7, 3}, 15, SoundEvents.ARMOR_EQUIP_IRON, 2.0F, 2.0F, () -> Ingredient.of(ModItems.TITANIUM_INGOT.get()));
 
     // Множители прочности для: шлема, грудака, штанов, ботинок
     private static final int[] HEALTH_PER_SLOT = new int[]{13, 15, 16, 11};

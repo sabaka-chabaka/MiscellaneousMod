@@ -73,6 +73,21 @@ public class ModItems {
     public static final RegistryObject<Item> STEEL_SHOVEL = ITEMS.register("steel_shovel", () -> new ShovelItem(ModItemTier.STEEL, 3, 1, new Item.Properties().tab(MiscellaneousMod.TOOLS_GROUP)));
     public static final RegistryObject<Item> STEEL_HOE = ITEMS.register("steel_hoe", () -> new HoeItem(ModItemTier.STEEL, 3, 1, new Item.Properties().tab(MiscellaneousMod.TOOLS_GROUP)));
 
+    public static final RegistryObject<Item> TITANIUM_SWORD = ITEMS.register("titanium_sword",
+            () -> new SwordItem(ModItemTier.TITANIUM, 3, -2.4F, new Item.Properties().tab(MiscellaneousMod.TOOLS_GROUP)));
+
+    public static final RegistryObject<Item> TITANIUM_PICKAXE = ITEMS.register("titanium_pickaxe",
+            () -> new PickaxeItem(ModItemTier.TITANIUM, 1, -2.8F, new Item.Properties().tab(MiscellaneousMod.TOOLS_GROUP)));
+
+    public static final RegistryObject<Item> TITANIUM_AXE = ITEMS.register("titanium_axe",
+            () -> new AxeItem(ModItemTier.TITANIUM, 5.0F, -3.0F, new Item.Properties().tab(MiscellaneousMod.TOOLS_GROUP)));
+
+    public static final RegistryObject<Item> TITANIUM_SHOVEL = ITEMS.register("titanium_shovel",
+            () -> new ShovelItem(ModItemTier.TITANIUM, 1.5F, -3.0F, new Item.Properties().tab(MiscellaneousMod.TOOLS_GROUP)));
+
+    public static final RegistryObject<Item> TITANIUM_HOE = ITEMS.register("titanium_hoe",
+            () -> new HoeItem(ModItemTier.TITANIUM, -2, -1.0F, new Item.Properties().tab(MiscellaneousMod.TOOLS_GROUP)));
+
     // Armor
     public static final RegistryObject<Item> STEEL_HELMET = ITEMS.register("steel_helmet",
             () -> new ArmorItem(ModArmorMaterial.STEEL, EquipmentSlotType.HEAD, new Item.Properties().tab(MiscellaneousMod.ARMOR_GROUP)));
@@ -85,6 +100,18 @@ public class ModItems {
 
     public static final RegistryObject<Item> STEEL_BOOTS = ITEMS.register("steel_boots",
             () -> new ArmorItem(ModArmorMaterial.STEEL, EquipmentSlotType.FEET, new Item.Properties().tab(MiscellaneousMod.ARMOR_GROUP)));
+
+    public static final RegistryObject<Item> TITANIUM_HELMET = ITEMS.register("titanium_helmet",
+            () -> new ArmorItem(ModArmorMaterial.TITANIUM, EquipmentSlotType.HEAD, new Item.Properties().tab(MiscellaneousMod.ARMOR_GROUP)));
+
+    public static final RegistryObject<Item> TITANIUM_CHESTPLATE = ITEMS.register("titanium_chestplate",
+            () -> new ArmorItem(ModArmorMaterial.TITANIUM, EquipmentSlotType.CHEST, new Item.Properties().tab(MiscellaneousMod.ARMOR_GROUP)));
+
+    public static final RegistryObject<Item> TITANIUM_LEGGINGS = ITEMS.register("titanium_legs",
+            () -> new ArmorItem(ModArmorMaterial.TITANIUM, EquipmentSlotType.LEGS, new Item.Properties().tab(MiscellaneousMod.ARMOR_GROUP)));
+
+    public static final RegistryObject<Item> TITANIUM_BOOTS = ITEMS.register("titanium_boots",
+            () -> new ArmorItem(ModArmorMaterial.TITANIUM, EquipmentSlotType.FEET, new Item.Properties().tab(MiscellaneousMod.ARMOR_GROUP)));
 
     public static final RegistryObject<Item> BACKPACK_ITEM = ITEMS.register("backpack", BackpackItem::new);
 

@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [ "SSS", "S S", "S S" ],
+  "key": { "S": { "item": "miscellaneousmod:titanium_ingot" } },
+  "result": { "item": "miscellaneousmod:titanium_legs" }
+}

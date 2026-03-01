@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "SIG",
+    "   "
+  ],
+  "key": {
+    "S": {
+      "item": "miscellaneousmod:steel_ingot"
+    },
+    "I": {
+      "item": "miscellaneousmod:titanium_ingot"
+    },
+    "G": {
+      "item": "minecraft:red_dye"
+    }
+  },
+  "result": {
+    "item": "miscellaneousmod:desh_ingot",
+    "count": 1
+  }
+}

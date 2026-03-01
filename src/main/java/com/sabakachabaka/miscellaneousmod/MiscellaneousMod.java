@@ -6,6 +6,7 @@ import com.sabakachabaka.miscellaneousmod.enchantments.ModEnchantments;
 import com.sabakachabaka.miscellaneousmod.entity.ModEntities;
 import com.sabakachabaka.miscellaneousmod.items.ModItems;
 import com.sabakachabaka.miscellaneousmod.world.ModOreGeneration;
+import io.netty.util.internal.logging.Log4JLoggerFactory;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;

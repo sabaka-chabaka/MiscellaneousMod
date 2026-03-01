@@ -64,6 +64,9 @@ public class ModItems {
     public static final RegistryObject<Item> TITANIUM_INGOT = ITEMS.register("titanium_ingot",
             () -> new Item(new Item.Properties().tab(
                     MiscellaneousMod.INGOT_GROUP).fireResistant()));
+    public static final RegistryObject<Item> DESH_INGOT = ITEMS.register("desh_ingot",
+            () -> new Item(new Item.Properties().tab(
+                    MiscellaneousMod.INGOT_GROUP).fireResistant()));
 
     // Customs
     public static final RegistryObject<Item> GRENADE_ITEM = ITEMS.register("grenade",

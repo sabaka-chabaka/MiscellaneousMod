@@ -7,6 +7,8 @@ import com.sabakachabaka.miscellaneousmod.blocks.ModBlocks;
 import net.minecraft.block.Block;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.*;
+import net.minecraft.potion.EffectInstance;
+import net.minecraft.potion.Effects;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
@@ -53,6 +55,7 @@ public class ModItems {
     public static final RegistryObject<Item> STRAWBERRY_ICE_CREAM = ITEMS.register("strawberry_ice_cream", () -> new Item(new Item.Properties().tab(MiscellaneousMod.FOOD_GROUP).food(new Food.Builder().nutrition(1).saturationMod(0.2f).build())));
     public static final RegistryObject<Item> TOFFEE_ICE_CREAM = ITEMS.register("toffee_ice_cream", () -> new Item(new Item.Properties().tab(MiscellaneousMod.FOOD_GROUP).food(new Food.Builder().nutrition(1).saturationMod(0.2f).build())));
     public static final RegistryObject<Item> VANILLA_ICE_CREAM = ITEMS.register("vanilla_ice_cream", () -> new Item(new Item.Properties().tab(MiscellaneousMod.FOOD_GROUP).food(new Food.Builder().nutrition(1).saturationMod(0.2f).build())));
+    public static final RegistryObject<Item> STRAWBERRY_CANDY = ITEMS.register("strawberry_candy", () -> new Item(new Item.Properties().tab(MiscellaneousMod.FOOD_GROUP).food(new Food.Builder().nutrition(1).saturationMod(0.2f).effect(new EffectInstance(Effects.REGENERATION, 200, 200), 200).build())));
 
     // Ingots
     public static final RegistryObject<Item> STEEL_INGOT = ITEMS.register("steel_ingot",

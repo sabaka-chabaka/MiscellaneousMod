@@ -52,5 +52,7 @@
   "item.miscellaneousmod.steel_leggings": "Стальные поножи",
   "item.miscellaneousmod.steel_boots": "Стальные ботинки",
   "enchantment.miscellaneousmod.electrum": "Электрум",
-  "item.miscellaneousmod.backpack": "Рюкзак"
+  "item.miscellaneousmod.backpack": "Рюкзак",
+  "block.miscellaneousmod.titanium_ore": "Титановая руда",
+  "item.miscellaneousmod.titanium_ingot": "Титановый слиток"
 }

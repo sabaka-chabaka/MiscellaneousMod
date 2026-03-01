@@ -41,6 +41,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> RUSTY_STEEL = BLOCKS.register("rusty_steel", () -> new Block(AbstractBlock.Properties.of(Material.METAL, MaterialColor.COLOR_GRAY).strength(150, 300).harvestTool(ToolType.PICKAXE).sound(SoundType.METAL)));
     public static final RegistryObject<Block> SMALL_TILES = BLOCKS.register("small_tiles", () -> new Block(AbstractBlock.Properties.of(Material.STONE, MaterialColor.COLOR_GRAY).strength(150, 300).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE)));
     public static final RegistryObject<Block> STEEL_ORE = BLOCKS.register("steel_ore", SteelOre::new);
+    public static final RegistryObject<Block> TITANIUM_ORE = BLOCKS.register("titanium_ore", TitaniumOre::new);
 
     public static void register(IEventBus eventBus){
         BLOCKS.register(eventBus);

@@ -41,8 +41,8 @@ public class ModItems {
     public static final RegistryObject<BlockItem> REINFORCED_STONE = ITEMS.register("reinforced_stone", () -> new BlockItem(ModBlocks.REINFORCED_STONE.get(), new Item.Properties().fireResistant().tab(MiscellaneousMod.BUILDING_GROUP)));
     public static final RegistryObject<BlockItem> RUSTY_STEEL = ITEMS.register("rusty_steel", () -> new BlockItem(ModBlocks.RUSTY_STEEL.get(), new Item.Properties().fireResistant().tab(MiscellaneousMod.BUILDING_GROUP)));
     public static final RegistryObject<BlockItem> SMALL_TILES = ITEMS.register("small_tiles", () -> new BlockItem(ModBlocks.SMALL_TILES.get(), new Item.Properties().fireResistant().tab(MiscellaneousMod.BUILDING_GROUP)));
-
     public static final RegistryObject<BlockItem> STEEL_ORE = ITEMS.register("steel_ore", () -> new BlockItem(ModBlocks.STEEL_ORE.get(), new Item.Properties().fireResistant().tab(MiscellaneousMod.ORE_GROUP)));
+    public static final RegistryObject<BlockItem> TITANIUM_ORE = ITEMS.register("titanium_ore", () -> new BlockItem(ModBlocks.TITANIUM_ORE.get(), new Item.Properties().fireResistant().tab(MiscellaneousMod.ORE_GROUP)));
 
     // Food Items
     public static final RegistryObject<Item> BANANA_ICE_CREAM = ITEMS.register("banana_ice_cream", () -> new Item(new Item.Properties().tab(MiscellaneousMod.FOOD_GROUP).food(new Food.Builder().nutrition(1).saturationMod(0.2f).build())));
@@ -55,6 +55,9 @@ public class ModItems {
 
     // Ingots
     public static final RegistryObject<Item> STEEL_INGOT = ITEMS.register("steel_ingot",
+            () -> new Item(new Item.Properties().tab(
+                    MiscellaneousMod.INGOT_GROUP).fireResistant()));
+    public static final RegistryObject<Item> TITANIUM_INGOT = ITEMS.register("titanium_ingot",
             () -> new Item(new Item.Properties().tab(
                     MiscellaneousMod.INGOT_GROUP).fireResistant()));
 

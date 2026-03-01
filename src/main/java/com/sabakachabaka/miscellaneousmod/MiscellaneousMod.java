@@ -5,18 +5,12 @@ import com.sabakachabaka.miscellaneousmod.containers.ModContainers;
 import com.sabakachabaka.miscellaneousmod.enchantments.ModEnchantments;
 import com.sabakachabaka.miscellaneousmod.entity.ModEntities;
 import com.sabakachabaka.miscellaneousmod.items.ModItems;
-import com.sabakachabaka.miscellaneousmod.screens.BackpackScreen;
 import com.sabakachabaka.miscellaneousmod.world.ModOreGeneration;
-import net.minecraft.client.Minecraft;
-import net.minecraft.client.gui.ScreenManager;
-import net.minecraft.client.renderer.entity.SpriteRenderer;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
-import net.minecraftforge.fml.client.registry.RenderingRegistry;
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 
@@ -43,22 +37,12 @@ public class MiscellaneousMod
         ModContainers.register(eventBus);
 
         eventBus.addListener(this::setup);
-        eventBus.addListener(this::clientSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
     }
 
     private void setup(final FMLCommonSetupEvent event) {
         event.enqueueWork(ModOreGeneration::registerConfiguredFeatures);
-    }
-
-    private void clientSetup(final FMLClientSetupEvent event) {
-        RenderingRegistry.registerEntityRenderingHandler(ModEntities.GRENADE.get(),
-                renderManager -> new SpriteRenderer<>(renderManager, Minecraft.getInstance().getItemRenderer()));
-        ScreenManager.register(
-                ModContainers.BACKPACK.get(),
-                BackpackScreen::new
-        );
     }
 
     public static class BuildingGroup extends ItemGroup {

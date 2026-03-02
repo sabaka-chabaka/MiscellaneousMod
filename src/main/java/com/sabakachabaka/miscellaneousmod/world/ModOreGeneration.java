@@ -19,6 +19,9 @@ public class ModOreGeneration {
     public static ConfiguredFeature<?, ?> STEEL_ORE_GEN;
     public static ConfiguredFeature<?, ?> TITANIUM_ORE_GEN;
 
+    public static ConfiguredFeature<?, ?> IRON_CLUSTER_GEN;
+    public static ConfiguredFeature<?, ?> TITANIUM_CLUSTER_GEN;
+
     public static void registerConfiguredFeatures() {
         // СТАЛЬ
         STEEL_ORE_GEN = Feature.ORE.configured(new OreFeatureConfig(
@@ -32,11 +35,19 @@ public class ModOreGeneration {
                         ModBlocks.TITANIUM_ORE.get().defaultBlockState(), 4))
                 .range(64).squared().count(20);
 
+        TITANIUM_CLUSTER_GEN = Feature.ORE.configured(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE, ModBlocks.TITANIUM_CLUSTER.get().defaultBlockState(), 9)).range(64).squared().count(20);
+
+        IRON_CLUSTER_GEN = Feature.ORE.configured(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE, ModBlocks.IRON_CLUSTER.get().defaultBlockState(), 4)).range(64).squared().count(20);
+
         // ВАЖНО: Регистрируем их в официальном реестре майна
         Registry.register(WorldGenRegistries.CONFIGURED_FEATURE,
                 new ResourceLocation(MiscellaneousMod.MOD_ID, "steel_ore"), STEEL_ORE_GEN);
         Registry.register(WorldGenRegistries.CONFIGURED_FEATURE,
                 new ResourceLocation(MiscellaneousMod.MOD_ID, "titanium_ore"), TITANIUM_ORE_GEN);
+        Registry.register(WorldGenRegistries.CONFIGURED_FEATURE,
+                new ResourceLocation(MiscellaneousMod.MOD_ID, "iron_cluster"), IRON_CLUSTER_GEN);
+        Registry.register(WorldGenRegistries.CONFIGURED_FEATURE,
+                new ResourceLocation(MiscellaneousMod.MOD_ID, "titanium_cluster"), TITANIUM_CLUSTER_GEN);
     }
 
 
@@ -49,6 +60,8 @@ public class ModOreGeneration {
         if (event.getCategory() != Biome.Category.NETHER && event.getCategory() != Biome.Category.THEEND) {
             event.getGeneration().addFeature(GenerationStage.Decoration.UNDERGROUND_ORES, STEEL_ORE_GEN);
             event.getGeneration().addFeature(GenerationStage.Decoration.UNDERGROUND_ORES, TITANIUM_ORE_GEN);
+            event.getGeneration().addFeature(GenerationStage.Decoration.UNDERGROUND_ORES, IRON_CLUSTER_GEN);
+            event.getGeneration().addFeature(GenerationStage.Decoration.UNDERGROUND_ORES, TITANIUM_CLUSTER_GEN);
         }
     }
 }

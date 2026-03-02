@@ -23,7 +23,12 @@ public class ExplosiveKillPotionEntity extends ProjectileItemEntity {
     }
 
     public ExplosiveKillPotionEntity(World world, LivingEntity thrower) {
-        super(ModEntities.EXPLOSIVE_POTION.get(), world);
+        super(ModEntities.EXPLOSIVE_POTION.get(), thrower.getX(), thrower.getEyeY() - 0.1, thrower.getZ(), world);
+    }
+
+    @Override
+    public net.minecraft.network.IPacket<?> getAddEntityPacket() {
+        return net.minecraftforge.fml.network.NetworkHooks.getEntitySpawningPacket(this);
     }
 
     @Override

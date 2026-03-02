@@ -2,11 +2,13 @@ package com.sabakachabaka.miscellaneousmod;
 
 import com.sabakachabaka.miscellaneousmod.blocks.ModBlocks;
 import com.sabakachabaka.miscellaneousmod.containers.ModContainers;
+import com.sabakachabaka.miscellaneousmod.effects.ModEffects;
 import com.sabakachabaka.miscellaneousmod.enchantments.ModEnchantments;
 import com.sabakachabaka.miscellaneousmod.entity.ModEntities;
 import com.sabakachabaka.miscellaneousmod.items.ModItems;
 import com.sabakachabaka.miscellaneousmod.world.ModOreGeneration;
 import io.netty.util.internal.logging.Log4JLoggerFactory;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
@@ -27,6 +29,7 @@ public class MiscellaneousMod
     public static final ItemGroup TOOLS_GROUP = new ToolsGroup("toolstab");
     public static final ItemGroup ARMOR_GROUP = new ArmorGroup("armortab");
     public static final ItemGroup BACKPACK_GROUP = new BackpackGroup("backpacktab");
+    public static final ItemGroup POTION_GROUP = new HolyGroup("potiontab");
 
     public MiscellaneousMod() {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
@@ -36,6 +39,7 @@ public class MiscellaneousMod
         ModEntities.register(eventBus);
         ModEnchantments.register(eventBus);
         ModContainers.register(eventBus);
+        ModEffects.register(eventBus);
 
         eventBus.addListener(this::setup);
 
@@ -117,6 +121,15 @@ public class MiscellaneousMod
         @Override
         public ItemStack makeIcon(){
             return ModItems.BACKPACK_ITEM.get().getDefaultInstance();
+        }
+    }
+
+    public static class HolyGroup extends ItemGroup {
+        public HolyGroup(String label) { super(label); }
+
+        @Override
+        public ItemStack makeIcon(){
+            return ModItems.HOLY_POTION.get().getDefaultInstance();
         }
     }
 }

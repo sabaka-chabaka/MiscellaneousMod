@@ -16,6 +16,14 @@ public class ModEntities {
                     .sized(0.25F, 0.25F)
                     .build(MiscellaneousMod.MOD_ID + ":grenade"));
 
+    public static final RegistryObject<EntityType<ExplosiveKillPotionEntity>> EXPLOSIVE_POTION =
+            ENTITIES.register("explosive_kill_potion",
+                    () -> EntityType.Builder.<ExplosiveKillPotionEntity>of(
+                                    ExplosiveKillPotionEntity::new, EntityClassification.MISC)
+                            .sized(0.25F, 0.25F)
+                            .build("explosive_kill_potion")
+            );
+
 
     public static void register(IEventBus eventBus) {
         ENTITIES.register(eventBus);

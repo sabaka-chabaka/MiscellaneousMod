@@ -44,6 +44,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> TITANIUM_ORE = BLOCKS.register("titanium_ore", TitaniumOre::new);
     public static final RegistryObject<Block> TITANIUM_BLOCK = BLOCKS.register("titanium_block", () -> new Block(AbstractBlock.Properties.of(Material.METAL).strength(150, 300).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE)));
     public static final RegistryObject<Block> DESH_BLOCK = BLOCKS.register("desh_block", () -> new Block(AbstractBlock.Properties.of(Material.METAL).strength(150, 300).harvestTool(ToolType.PICKAXE).sound(SoundType.METAL)));
+    public static final RegistryObject<Block> IRON_CLUSTER = BLOCKS.register("iron_cluster", IronCluster::new);
 
     public static void register(IEventBus eventBus){
         BLOCKS.register(eventBus);

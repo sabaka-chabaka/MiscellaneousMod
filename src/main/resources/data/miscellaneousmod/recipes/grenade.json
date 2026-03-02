@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S ",
+    " I ",
+    " I "
+  ],
+  "key": {
+    "S": {
+      "item": "miscellaneousmod:flint"
+    },
+    "I": {
+      "item": "minecraft:gunpowder"
+    }
+  },
+  "result": {
+    "item": "miscellaneousmod:grenade",
+    "count": 1
+  }
+}

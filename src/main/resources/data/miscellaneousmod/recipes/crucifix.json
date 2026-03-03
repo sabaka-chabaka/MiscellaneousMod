@@ -1,13 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " S ",
-    "SSS",
-    " S "
+    "   ",
+    " SI",
+    "   "
   ],
   "key": {
     "S": {
-      "item": "miscellaneousmod:holy_ingot"
+      "item": "miscellaneousmod:crucifix_unready"
+    },
+    "I": {
+      "item": "miscellaneousmod:holy_water"
     }
   },
   "result": {

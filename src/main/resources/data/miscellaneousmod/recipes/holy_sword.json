@@ -1,15 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " S ",
-    " S ",
-    " I "
+    "SIS",
+    "IGI",
+    "SCS"
   ],
   "key": {
     "S": {
       "item": "miscellaneousmod:holy_ingot"
     },
     "I": {
+      "item": "minecraft:holy_water"
+    },
+    "G": {
+      "item": "miscellaneousmod:holy_sword_unready"
+    },
+    "C": {
       "item": "minecraft:crucifix"
     }
   },

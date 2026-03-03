@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S ",
+    "SSS",
+    " S "
+  ],
+  "key": {
+    "S": {
+      "item": "miscellaneousmod:holy_ingot"
+    }
+  },
+  "result": {
+    "item": "miscellaneousmod:crucifix",
+    "count": 1
+  }
+}

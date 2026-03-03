@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    " SI",
+    "   "
+  ],
+  "key": {
+    "S": {
+      "item": "miscellaneousmod:water_bottle"
+    },
+    "I": {
+      "item": "minecraft:holy_ingot"
+    }
+  },
+  "result": {
+    "item": "miscellaneousmod:desh_shovel",
+    "count": 1
+  }
+}

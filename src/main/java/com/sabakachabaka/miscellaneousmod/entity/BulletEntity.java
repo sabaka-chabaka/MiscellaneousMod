@@ -1,9 +1,15 @@
 package com.sabakachabaka.miscellaneousmod.entity;
 
+import net.minecraft.block.Block;
+import net.minecraft.block.BlockState;
+import net.minecraft.block.Blocks;
+import net.minecraft.block.material.Material;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.projectile.ThrowableEntity;
 import net.minecraft.util.DamageSource;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.BlockRayTraceResult;
 import net.minecraft.util.math.EntityRayTraceResult;
 import net.minecraft.util.math.RayTraceResult;
 import net.minecraft.world.World;
@@ -23,6 +29,23 @@ public class BulletEntity extends ThrowableEntity {
         super.onHitEntity(result);
         result.getEntity().hurt(DamageSource.thrown(this, this.getOwner()), 8.0F);
         this.remove();
+    }
+
+    @Override
+    protected void onHitBlock(BlockRayTraceResult result) {
+        super.onHitBlock(result);
+
+        if (!level.isClientSide) {
+
+            BlockPos pos = result.getBlockPos();
+            BlockState state = level.getBlockState(pos);
+
+            if (state.getMaterial() == Material.GLASS) {
+                level.destroyBlock(pos, false);
+            }
+
+            this.remove();
+        }
     }
 
     @Override

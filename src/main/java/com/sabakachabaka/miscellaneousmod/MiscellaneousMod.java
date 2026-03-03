@@ -30,6 +30,7 @@ public class MiscellaneousMod
     public static final ItemGroup ARMOR_GROUP = new ArmorGroup("armortab");
     public static final ItemGroup BACKPACK_GROUP = new BackpackGroup("backpacktab");
     public static final ItemGroup POTION_GROUP = new HolyGroup("potiontab");
+    public static final ItemGroup WEAPON_GROUP = new WeaponGroup("weapongroup");
 
     public MiscellaneousMod() {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
@@ -130,6 +131,15 @@ public class MiscellaneousMod
         @Override
         public ItemStack makeIcon(){
             return ModItems.HOLY_POTION.get().getDefaultInstance();
+        }
+    }
+
+    public static class WeaponGroup extends ItemGroup {
+        public WeaponGroup(String label) { super(label); }
+
+        @Override
+        public ItemStack makeIcon(){
+            return ModItems.PISTOL.get().getDefaultInstance();
         }
     }
 }

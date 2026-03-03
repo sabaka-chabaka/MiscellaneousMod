@@ -35,7 +35,7 @@ public class ShootPacket {
                         player.xRot,
                         player.yRot,
                         0.0F,
-                        3.5F,
+                        25.0F,
                         0.5F
                 );
 

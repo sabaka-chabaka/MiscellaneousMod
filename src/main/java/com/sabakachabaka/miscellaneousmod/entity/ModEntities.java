@@ -24,6 +24,12 @@ public class ModEntities {
                             .build("explosive_kill_potion")
             );
 
+    public static final RegistryObject<EntityType<BulletEntity>> BULLET =
+            ENTITIES.register("bullet",
+                    () -> EntityType.Builder.<BulletEntity>of(BulletEntity::new, EntityClassification.MISC)
+                            .sized(0.2F, 0.2F)
+                            .build("bullet"));
+
 
     public static void register(IEventBus eventBus) {
         ENTITIES.register(eventBus);

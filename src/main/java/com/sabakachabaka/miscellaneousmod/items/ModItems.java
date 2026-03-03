@@ -144,6 +144,10 @@ public class ModItems {
     public static final RegistryObject<Item> HOLY_POTION = ITEMS.register("holy_water", () -> new HolyPotion(new Item.Properties().tab(MiscellaneousMod.POTION_GROUP)));
 
 
+    // Experiment
+
+    public static final RegistryObject<Item> PISTOL = ITEMS.register("pistol", PistolItem::new);
+
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
     }

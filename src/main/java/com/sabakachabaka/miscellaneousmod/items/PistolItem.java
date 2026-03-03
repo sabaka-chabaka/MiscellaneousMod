@@ -1,7 +1,7 @@
 package com.sabakachabaka.miscellaneousmod.items;
 
+import com.sabakachabaka.miscellaneousmod.MiscellaneousMod;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
 
 public class PistolItem extends Item {
 
@@ -9,6 +9,6 @@ public class PistolItem extends Item {
         super(new Item.Properties()
                 .stacksTo(1)
                 .durability(500)
-                .tab(ItemGroup.TAB_COMBAT));
+                .tab(MiscellaneousMod.WEAPON_GROUP));
     }
 }

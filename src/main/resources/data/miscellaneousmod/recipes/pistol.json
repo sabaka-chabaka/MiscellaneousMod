@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    " SI",
+    "  S"
+  ],
+  "key": {
+    "S": {
+      "item": "miscellaneousmod:steel_ingot"
+    },
+    "I": {
+      "item": "minecraft:gunpowder"
+    }
+  },
+  "result": {
+    "item": "miscellaneousmod:pistol",
+    "count": 1
+  }
+}

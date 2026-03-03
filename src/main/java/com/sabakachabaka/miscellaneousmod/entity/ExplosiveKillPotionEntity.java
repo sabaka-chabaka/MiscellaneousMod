@@ -33,21 +33,24 @@ public class ExplosiveKillPotionEntity extends ProjectileItemEntity {
 
     @Override
     protected void onHit(RayTraceResult result) {
-        if (!level.isClientSide()) {
-            level.explode(this, getX(), getY(), getZ(), 3.0F, Explosion.Mode.NONE);
+        super.onHit(result);
 
-            List<MobEntity> mobs = level.getEntitiesOfClass(
-                    MobEntity.class,
-                    new AxisAlignedBB(getX()-5, getY()-5, getZ()-5,
-                            getX()+5, getY()+5, getZ()+5)
-            );
+        if (!level.isClientSide) {
+
+            level.explode(this, getX(), getY(), getZ(), 0.0F, Explosion.Mode.NONE);
+
+            AxisAlignedBB box = this.getBoundingBox().inflate(5);
+
+            List<MobEntity> mobs = level.getEntitiesOfClass(MobEntity.class, box);
 
             for (MobEntity mob : mobs) {
-                mob.addEffect(new EffectInstance(
-                        ModEffects.KILL_EFFECT.get(),
-                        1,
-                        0
-                ));
+                if (mob != this.getOwner()) {
+                    mob.addEffect(new EffectInstance(
+                            ModEffects.KILL_EFFECT.get(),
+                            1,
+                            0
+                    ));
+                }
             }
 
             this.remove();

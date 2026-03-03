@@ -32,6 +32,8 @@ public class ClientModEvents {
                 )
         );
 
+        RenderingRegistry.registerEntityRenderingHandler(ModEntities.EXPLOSIVE_POTION.get(), renderManager -> new SpriteRenderer<>(renderManager, Minecraft.getInstance().getItemRenderer()));
+
         ScreenManager.register(
                 ModContainers.BACKPACK.get(),
                 BackpackScreen::new

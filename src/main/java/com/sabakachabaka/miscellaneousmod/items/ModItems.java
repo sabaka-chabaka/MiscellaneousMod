@@ -4,6 +4,7 @@ import com.sabakachabaka.miscellaneousmod.MiscellaneousMod;
 import com.sabakachabaka.miscellaneousmod.ModArmorMaterial;
 import com.sabakachabaka.miscellaneousmod.ModItemTier;
 import com.sabakachabaka.miscellaneousmod.blocks.ModBlocks;
+import com.sun.org.apache.xpath.internal.operations.Mod;
 import net.minecraft.block.Block;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.*;
@@ -11,7 +12,6 @@ import net.minecraft.potion.EffectInstance;
 import net.minecraft.potion.Effects;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.RegistryObject;
-import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 
@@ -143,9 +143,14 @@ public class ModItems {
     // Potions
     public static final RegistryObject<Item> HOLY_POTION = ITEMS.register("holy_water", () -> new HolyPotion(new Item.Properties().tab(MiscellaneousMod.POTION_GROUP)));
 
+    // Holy
+    public static final RegistryObject<Item> HOLY_INGOT = ITEMS.register("holy_ingot", () -> new Item(new Item.Properties().tab(MiscellaneousMod.INGOT_GROUP)));
+    public static final RegistryObject<Item> CRUCIFIX = ITEMS.register("crucifix", () -> new Item(new Item.Properties().tab(MiscellaneousMod.TOOLS_GROUP)));
+    public static final RegistryObject<Item> CRUCIFIX_UNREADY = ITEMS.register("crucifix_unready", () -> new Item(new Item.Properties().tab(MiscellaneousMod.TOOLS_GROUP)));
+    public static final RegistryObject<Item> HOLY_SWORD = ITEMS.register("holy_sword", () -> new SwordItem(ModItemTier.HOLY, 3, 3, new Item.Properties().tab(MiscellaneousMod.TOOLS_GROUP)));
+    public static final RegistryObject<Item> HOLY_SWORD_UNREADY = ITEMS.register("holy_sword_unready", () -> new SwordItem(ModItemTier.HOLY, 3, 3, new Item.Properties().tab(MiscellaneousMod.TOOLS_GROUP)));
 
     // Experiment
-
     public static final RegistryObject<Item> PISTOL = ITEMS.register("pistol", PistolItem::new);
 
     public static void register(IEventBus eventBus){

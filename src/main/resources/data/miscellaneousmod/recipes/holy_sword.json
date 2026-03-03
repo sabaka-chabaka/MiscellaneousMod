@@ -21,6 +21,7 @@
   },
   "result": {
     "item": "miscellaneousmod:desh_shovel",
-    "count": 1
+    "count": 1,
+    "nbt": "{Enchantments:[{id:\"miscellaneousmod:electrum\",lvl:3s}]}"
   }
 }

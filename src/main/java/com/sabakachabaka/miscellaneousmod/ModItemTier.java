@@ -10,7 +10,9 @@ import java.util.function.Supplier;
 public enum ModItemTier implements IItemTier {
     STEEL(2 , 1000, 8.0F, 3.0F, 10, () -> Ingredient.of(ModItems.STEEL_INGOT.get())),
     TITANIUM(3, 2000, 16.0F, 3.0F, 15, () -> Ingredient.of(ModItems.TITANIUM_INGOT.get())),
-    DESH(3, 4000, 128.0F, 7, 50, () -> Ingredient.of(ModItems.DESH_INGOT.get()));
+    DESH(3, 4000, 128.0F, 7, 50, () -> Ingredient.of(ModItems.DESH_INGOT.get())),
+
+    HOLY(3, 4000, 128, 15, 50, () -> Ingredient.of(ModItems.HOLY_INGOT.get()));
 
     private final int harvestLevel;
     private final int maxUses;

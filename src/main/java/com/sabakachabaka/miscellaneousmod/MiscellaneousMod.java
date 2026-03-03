@@ -6,6 +6,7 @@ import com.sabakachabaka.miscellaneousmod.effects.ModEffects;
 import com.sabakachabaka.miscellaneousmod.enchantments.ModEnchantments;
 import com.sabakachabaka.miscellaneousmod.entity.ModEntities;
 import com.sabakachabaka.miscellaneousmod.items.ModItems;
+import com.sabakachabaka.miscellaneousmod.network.NetworkHandler;
 import com.sabakachabaka.miscellaneousmod.world.ModOreGeneration;
 import io.netty.util.internal.logging.Log4JLoggerFactory;
 import net.minecraft.item.Item;
@@ -41,6 +42,7 @@ public class MiscellaneousMod
         ModEnchantments.register(eventBus);
         ModContainers.register(eventBus);
         ModEffects.register(eventBus);
+        NetworkHandler.register();
 
         eventBus.addListener(this::setup);
 

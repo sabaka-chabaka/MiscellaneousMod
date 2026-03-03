@@ -35,9 +35,15 @@ public class ModOreGeneration {
                         ModBlocks.TITANIUM_ORE.get().defaultBlockState(), 4))
                 .range(64).squared().count(20);
 
-        TITANIUM_CLUSTER_GEN = Feature.ORE.configured(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE, ModBlocks.TITANIUM_CLUSTER.get().defaultBlockState(), 9)).range(64).squared().count(20);
+        TITANIUM_CLUSTER_GEN = Feature.ORE.configured(new OreFeatureConfig(
+                OreFeatureConfig.FillerBlockType.NATURAL_STONE,
+                ModBlocks.TITANIUM_CLUSTER.get().defaultBlockState(), 9))
+                .range(64).squared().count(20);
 
-        IRON_CLUSTER_GEN = Feature.ORE.configured(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE, ModBlocks.IRON_CLUSTER.get().defaultBlockState(), 4)).range(64).squared().count(20);
+        IRON_CLUSTER_GEN = Feature.ORE.configured(new OreFeatureConfig(
+                OreFeatureConfig.FillerBlockType.NATURAL_STONE,
+                ModBlocks.IRON_CLUSTER.get().defaultBlockState(), 4))
+                .range(64).squared().count(20);
 
         // ВАЖНО: Регистрируем их в официальном реестре майна
         Registry.register(WorldGenRegistries.CONFIGURED_FEATURE,

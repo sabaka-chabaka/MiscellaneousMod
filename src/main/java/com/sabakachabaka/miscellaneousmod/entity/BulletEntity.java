@@ -27,7 +27,7 @@ public class BulletEntity extends ThrowableEntity {
     @Override
     protected void onHitEntity(EntityRayTraceResult result) {
         super.onHitEntity(result);
-        result.getEntity().hurt(DamageSource.thrown(this, this.getOwner()), 8.0F);
+        result.getEntity().hurt(DamageSource.thrown(this, this.getOwner()), 15.0F);
         this.remove();
     }
 

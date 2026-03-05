@@ -2,9 +2,11 @@ package com.sabakachabaka.miscellaneousmod.network;
 
 import com.sabakachabaka.miscellaneousmod.entity.BulletEntity;
 import com.sabakachabaka.miscellaneousmod.items.PistolItem;
+import com.sabakachabaka.miscellaneousmod.sounds.ModSounds;
 import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.network.PacketBuffer;
+import net.minecraft.util.SoundCategory;
 import net.minecraftforge.fml.network.NetworkEvent;
 
 import java.util.function.Supplier;
@@ -40,6 +42,7 @@ public class ShootPacket {
                 );
 
                 player.level.addFreshEntity(bullet);
+                player.level.playSound(player, player.getX(), player.getY(), player.getZ(), ModSounds.PISTOL_SOUND.get(), SoundCategory.PLAYERS, 50.0F, 50.0F);
                 player.getCooldowns().addCooldown(stack.getItem(), 5);
             }
         });

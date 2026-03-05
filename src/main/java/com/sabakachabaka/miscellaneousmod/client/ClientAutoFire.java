@@ -3,9 +3,11 @@ package com.sabakachabaka.miscellaneousmod.client;
 import com.sabakachabaka.miscellaneousmod.items.PistolItem;
 import com.sabakachabaka.miscellaneousmod.network.NetworkHandler;
 import com.sabakachabaka.miscellaneousmod.network.ShootPacket;
+import com.sabakachabaka.miscellaneousmod.sounds.ModSounds;
 import net.minecraft.client.Minecraft;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;
+import net.minecraft.util.SoundCategory;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -41,6 +43,7 @@ public class ClientAutoFire {
 
                     NetworkHandler.INSTANCE.sendToServer(new ShootPacket());
                     applyRecoil();
+                    player.level.playSound(player, player.getX(), player.getY(), player.getZ(), ModSounds.PISTOL_SOUND.get(), SoundCategory.PLAYERS, 50.0F, 50.0F);
                     shootDelay = 4;
                 }
             }

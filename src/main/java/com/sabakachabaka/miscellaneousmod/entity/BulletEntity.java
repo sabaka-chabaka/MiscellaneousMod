@@ -12,6 +12,7 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.BlockRayTraceResult;
 import net.minecraft.util.math.EntityRayTraceResult;
 import net.minecraft.util.math.RayTraceResult;
+import net.minecraft.world.Explosion;
 import net.minecraft.world.World;
 
 public class BulletEntity extends ThrowableEntity {
@@ -42,6 +43,9 @@ public class BulletEntity extends ThrowableEntity {
 
             if (state.getMaterial() == Material.GLASS) {
                 level.destroyBlock(pos, false);
+            }
+            if (state.getMaterial() == Material.EXPLOSIVE) {
+                level.explode(this, pos.getX(), pos.getY(), pos.getZ(), 50, Explosion.Mode.BREAK);
             }
 
             this.remove();

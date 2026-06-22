@@ -12,6 +12,7 @@ public class ModEnchantments {
 
     public static final RegistryObject<Enchantment> ELECTRUM = ENCHANTMENTS.register("electrum",
             ElectrumEnchantment::new);
+    public static final RegistryObject<Enchantment> TNT = ENCHANTMENTS.register("tnt", TntEnchantment::new);
 
     public static void register(IEventBus eventBus) {
         ENCHANTMENTS.register(eventBus);
